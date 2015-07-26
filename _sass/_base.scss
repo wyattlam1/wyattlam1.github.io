@@ -14,6 +14,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+    
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
@@ -182,21 +185,3 @@ pre {
     }
 }
 
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
-}
