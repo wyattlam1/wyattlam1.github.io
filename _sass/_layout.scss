@@ -91,14 +91,18 @@ $left-container-width: 200px;
     }
 }
 
-.post-excerpt {
-    /*font-size: $small-font-size;*/
-    color: $grey-color;
+.post-link {    
+    font-size: 24px;
+    font-weight: bold;
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
-.post-link {
-    display: block;
-    font-size: 24px;
+.post-excerpt {
+    line-height: 30px;
+    color: $grey-color-dark;
 }
 
 /**
@@ -111,7 +115,7 @@ $left-container-width: 200px;
 .post-title {
     color: $grey-color-dark-dark;
     font-size: 34px;
-    font-weight: 900;
+    font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -126,10 +130,10 @@ $left-container-width: 200px;
 }
 
 .post-content {
-    color: $grey-color-dark;
+    color: $grey-color;
     font-size: 20px;
     line-height: 40px;
-    font-weight: 400;
+    font-weight: 300;
 
     margin-bottom: $spacing-unit;    
 
