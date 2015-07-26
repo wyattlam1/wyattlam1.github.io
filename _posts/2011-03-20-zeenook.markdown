@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Zeenook Inc. - Startup Internship"
+date:   2011-03-20
+categories: technology zeenook internship
+---
+I interned at a local startup company called Zeenook last summer. This was one of my first experiences in programming outside of my college classes and didn’t quite know what to expect. I didn’t think much of it at first, seeing that it was a small company and did not have much of an infrastructure set up when I joined. They only had a few employees and didn’t exactly have an office. I didn’t feel like I would be able to learn much from this opportunity. 
+
+However, it turns out that I would program the most I have ever done that summer. With another intern, I assisted in the development of an Android application and also implemented the back end web service for it to communicate with all from scratch. I have never cranked out that many lines of code before and it was quite an experience. At the end of it all, I was able to see the complete product as a whole and was quite amazed by what I accomplished. 
+
+Only at a startup company, would I find an opportunity like this. At startups, projects are relatively smaller in size and the employees are more able to see the beginning to end completion. I was able to clearly see my useful contribution to the overall product. 
+
+I’m glad I had the opportunity to join Zeenook for it was quite an experience.
