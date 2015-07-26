@@ -16,8 +16,6 @@ $left-container-width: 200px;
     padding-right: $spacing-unit;
     padding-top: $spacing-unit * 2;
     padding-bottom: $spacing-unit * 2;
-    border-right: 1px solid;
-    border-right-color:  $grey-color-light-light;
 }
 
 .profile-img {
@@ -76,6 +74,8 @@ $left-container-width: 200px;
     padding-left: $spacing-unit;
     padding-top: $spacing-unit * 2;
     margin-left: $left-container-width + $spacing-unit * 2;
+    border-left: 1px solid;
+    border-left-color:  $grey-color-light-light;
 }
 
 .page-heading {
