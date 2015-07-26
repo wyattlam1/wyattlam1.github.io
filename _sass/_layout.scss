@@ -163,9 +163,18 @@ $left-container-width: 200px;
     }
 }
 
-.center-img {
+.center {
     display: block;
     margin:0 auto;
+}
+
+.img-caption {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
 }
 
 
