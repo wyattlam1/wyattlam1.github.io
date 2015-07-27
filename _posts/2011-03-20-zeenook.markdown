@@ -3,6 +3,7 @@ layout: post
 title:  "Zeenook Inc. - Startup Internship"
 date:   2011-03-20
 categories: technology zeenook internship
+
 ---
 I interned at a local startup company called Zeenook last summer. This was one of my first experiences in programming outside of my college classes and didn’t quite know what to expect. I didn’t think much of it at first, seeing that it was a small company and did not have much of an infrastructure set up when I joined. They only had a few employees and didn’t exactly have an office. I didn’t feel like I would be able to learn much from this opportunity. 
 

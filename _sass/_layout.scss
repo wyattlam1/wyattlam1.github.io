@@ -22,6 +22,11 @@ $left-container-width: 200px;
 .profile-img {
     display: block;
     border-radius: 5px;
+
+    &:hover {
+        opacity: .8;
+        filter: alpha(opacity=80);
+    }
 }
 
 .profile-bio {
@@ -63,6 +68,12 @@ $left-container-width: 200px;
 
         path {
             fill: $grey-color-light;
+        }
+
+        &:hover {
+            path {
+                fill: $grey-color-dark;
+            }
         }
     }
 }
