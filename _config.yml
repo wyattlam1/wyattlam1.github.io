@@ -9,6 +9,12 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://www.wyattlam.com" # the base hostname & protocol for your site
 twitter_username: Wyatt_Lam
 github_username:  wyattlam1
+flickr_username: wyattlam
+
+# Site urls
+about_url: "about"
+posts_url: "posts"
+photos_url: "photos"
 
 # Build settings
 markdown: kramdown

@@ -11,6 +11,6 @@ layout: default
     {{ content }}
   </article>
 
-  <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  <p class="post-meta">Published <b>{{ page.date | date: "%b %-d, %Y" }}</b> {% if page.meta %} • {{ page.meta }}{% endif %}</p>
 
 </div>
