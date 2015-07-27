@@ -6,10 +6,11 @@ title: wyattlam.com
   # line in _config.yml. It will appear in your document head meta (for
   # Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://www.wyattlam.com" # the base hostname & protocol for your site
+url: "http://www.wyattlam.com" # the base hostname & protocol for your site
 twitter_username: Wyatt_Lam
 github_username:  wyattlam1
 flickr_username: wyattlam
+linkedin_username: wyattlam
 
 # Site urls
 about_url: "about"
