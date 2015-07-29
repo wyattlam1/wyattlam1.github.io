@@ -28,7 +28,7 @@ $left-container-width: 200px;
 
 .profile-img {
     border-radius: 5px;
-
+    margin-bottom: $spacing-unit;
     &:hover {
         opacity: .8;
         filter: alpha(opacity=80);
@@ -38,13 +38,21 @@ $left-container-width: 200px;
 .profile-bio {
     display: block;
     width: 100%;
-    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
     color: $grey-color-dark;
     font-size: 14px;
+
+    @include media-query($on-palm) {
+        margin-bottom: 0;
+    }
 }
 
 .navigation {
     margin-top: $spacing-unit;
+
+    @include media-query($on-palm) {
+        margin: $spacing-unit / 2;
+    }
 }
 
 .navigation ul {
@@ -61,13 +69,17 @@ $left-container-width: 200px;
     @include media-query($on-palm) {
         display: inline-block;
         margin: 0;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: $spacing-unit / 2;
+        padding-right: $spacing-unit / 2;
     }
 }
 
 .network-container {
     margin-top: $spacing-unit;
+
+    @include media-query($on-palm) {
+        margin-top: $spacing-unit / 2;
+    }
 }
 
 .network {
@@ -88,6 +100,11 @@ $left-container-width: 200px;
                 fill: $grey-color-dark;
             }
         }
+    }
+
+    @include media-query($on-palm) {
+        margin-left: $spacing-unit / 2;
+        margin-right: $spacing-unit / 2;
     }
 }
 
@@ -157,7 +174,7 @@ $left-container-width: 200px;
  * Posts
  */
 .post {
-    padding: 10px 40px 0px 40px;
+    padding: $spacing-unit 40px 0px 40px;
 }
 
 .post-header {
@@ -171,8 +188,8 @@ $left-container-width: 200px;
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
+    @include media-query($on-palm) {
+        font-size: 28px;
     }
 }
 
@@ -189,6 +206,11 @@ $left-container-width: 200px;
     font-weight: 300;
 
     margin-bottom: $spacing-unit;    
+
+    @include media-query($on-palm) {
+        font-size: 18px;
+        line-height: 30px;
+    }
 
     h2 {
         font-size: 32px;
@@ -235,8 +257,10 @@ $left-container-width: 200px;
  */
 
 $about-logo-width: 100px;
+$about-logo-width-smaller: 60px;
 
 .about {
+    padding-top: $spacing-unit;
     padding-left: $spacing-unit * 2;
     padding-right: $spacing-unit * 2;
 }
@@ -248,10 +272,18 @@ $about-logo-width: 100px;
 .about .logo {
     float: left;
     width: $about-logo-width;
+
+    @include media-query($on-palm) {
+        width: $about-logo-width-smaller;
+    }
 }
 
 .about .description-container {
     margin-left: $about-logo-width + $spacing-unit * 2;
+
+    @include media-query($on-palm) {
+        margin-left: $about-logo-width;
+    }
 }
 
 
