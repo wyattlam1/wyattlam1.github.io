@@ -6,7 +6,7 @@ layout: default
 
 <ul class="post-list">
   {% for post in site.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
+    <a href="{{ post.url | prepend: site.url }}">
       <li>
       
         <span class="post-list-title">{{ post.title }}</span>
