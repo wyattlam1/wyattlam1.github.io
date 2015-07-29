@@ -17,10 +17,8 @@ $left-container-width: 200px;
     padding-right: $spacing-unit;
     padding-top: $spacing-unit * 2;
     padding-bottom: $spacing-unit * 2;
-}
 
-@media only screen and (max-width: 600px) {
-    .left-container {
+    @include media-query($on-palm) {
         float: none;
         padding: 0;
         text-align: center;
@@ -59,6 +57,13 @@ $left-container-width: 200px;
     margin-bottom: 5px;
     color: $grey-color-light;
     font-weight: bold;
+
+    @include media-query($on-palm) {
+        display: inline-block;
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 .network-container {
@@ -86,6 +91,13 @@ $left-container-width: 200px;
     }
 }
 
+.rss-subscribe {
+    @include media-query($on-palm) {
+        visibility: hidden;
+        height: 0;
+    }
+}
+
 /*.network .icon--linkedin {
     > svg {
         background-color: $grey-color-light;
@@ -108,10 +120,8 @@ $left-container-width: 200px;
     margin-left: $left-container-width + $spacing-unit * 2;
     border-left: 1px solid;
     border-left-color: $grey-color-light-light;
-}
 
-@media only screen and (max-width: 600px) {
-    .right-container {
+    @include media-query($on-palm) {
         padding: 0;
         margin: 0;
         border: 0;
