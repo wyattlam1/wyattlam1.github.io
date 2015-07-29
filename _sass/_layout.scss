@@ -19,8 +19,16 @@ $left-container-width: 200px;
     padding-bottom: $spacing-unit * 2;
 }
 
+@media only screen and (max-width: 600px) {
+    .left-container {
+        float: none;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+}
+
 .profile-img {
-    display: block;
     border-radius: 5px;
 
     &:hover {
@@ -99,7 +107,17 @@ $left-container-width: 200px;
     padding-top: $spacing-unit;
     margin-left: $left-container-width + $spacing-unit * 2;
     border-left: 1px solid;
-    border-left-color:  $grey-color-light-light;
+    border-left-color: $grey-color-light-light;
+}
+
+@media only screen and (max-width: 600px) {
+    .right-container {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        border-top: 1px solid;
+        border-top-color: $grey-color-light-light;
+    }
 }
 
 .post-list {

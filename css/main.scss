@@ -3,7 +3,8 @@
 ---
 @charset "utf-8";
 
-
+// Globals
+$spacing-unit:     30px;
 
 // Fonts
 $base-font-family: 'Lato', sans-serif;
@@ -15,9 +16,6 @@ $header-font-family: 'Lato';
 $footer-font-family: 'Helvetica';
 
 $post-font-family: 'Lato-Light';
-
-$spacing-unit:     30px;
-
 
 // Colors
 $text-color:       #111;
@@ -35,7 +33,6 @@ $content-width:    80%;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
 
 
 // Using media queries with like this:
