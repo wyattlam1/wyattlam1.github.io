@@ -235,6 +235,10 @@ $left-container-width: 200px;
             font-size: 18px;
         }
     }
+
+    p {
+        margin-bottom: $spacing-unit;
+    }
 }
 
 .center {
