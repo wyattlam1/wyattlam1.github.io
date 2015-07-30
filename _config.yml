@@ -5,7 +5,8 @@ title: wyattlam.com
   # Write an awesome description for your new site here. You can edit this
   # line in _config.yml. It will appear in your document head meta (for
   # Google search results) and in your feed.xml site description.
-baseurl: "http://www.wyattlam.com/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://wyattlam1.github.io" # the base hostname & protocol for your site
 permalink: /posts/:title
 
 # Usernames
@@ -15,9 +16,9 @@ flickr_username: wyattlam
 linkedin_username: wyattlam
 
 # Site urls
-about_url: "/about"
-posts_url: "/posts"
-photos_url: "/photos"
+about_url: "/about/"
+posts_url: "/posts/"
+photos_url: "/photos/"
 
 # Build settings
 markdown: kramdown
