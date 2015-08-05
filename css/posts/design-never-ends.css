@@ -1,0 +1,30 @@
+.site1 {
+	width: 100%;
+}
+
+.site2 {
+	display: inline-block;
+	width: 30%;
+	border: 1px solid #000000;
+	margin-bottom: 20px;
+}
+
+.site3 {
+	display: inline-block;
+	width: 30%;
+	border: 1px solid #DDDDDD;
+}
+
+.site4 {
+	width: 90%;
+	border: 1px solid #DDDDDD;
+}
+
+.row {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.bordered {
+	border: 1px solid #DDDDDD;
+}

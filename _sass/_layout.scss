@@ -174,11 +174,18 @@ $left-container-width: 200px;
  * Posts
  */
 .post {
-    padding: $spacing-unit 40px 0px 40px;
+    padding: $spacing-unit $spacing-unit 0px $spacing-unit;
 }
 
 .post-header {
+    padding-left: $spacing-unit*3;
+    padding-right: $spacing-unit*3;
     margin-bottom: $spacing-unit;
+
+    @include media-query($on-palm) {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 .post-title {
@@ -197,6 +204,10 @@ $left-container-width: 200px;
     text-align: right;
     color: $grey-color;
     font-size: 20px;
+
+    @include media-query($on-palm) {
+        font-size: 16px;
+    }
 }
 
 .post-content {
@@ -212,8 +223,13 @@ $left-container-width: 200px;
         line-height: 30px;
     }
 
-    h2 {
+    h2 {        
         font-size: 32px;
+
+        @include media-query($on-palm) {
+            padding-left: 0;
+            padding-right: 0;
+        }
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -221,15 +237,30 @@ $left-container-width: 200px;
     }
 
     h3 {
-        font-size: 26px;
+        padding-left: $spacing-unit*3;
+        padding-right: $spacing-unit*3;
+
+        font-size: 20px;
+
+        @include media-query($on-palm) {
+            padding-left: 0;
+            padding-right: 0;
+        }
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: 16px;
         }
     }
 
     h4 {
+        padding-left: $spacing-unit*3;
+        padding-right: $spacing-unit*3;
         font-size: 20px;
+
+        @include media-query($on-palm) {
+            padding-left: 0;
+            padding-right: 0;
+        }
 
         @include media-query($on-laptop) {
             font-size: 18px;
@@ -237,6 +268,14 @@ $left-container-width: 200px;
     }
 
     p {
+        padding-left: $spacing-unit*3;
+        padding-right: $spacing-unit*3;
+
+        @include media-query($on-palm) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
         margin-bottom: $spacing-unit;
     }
 }
