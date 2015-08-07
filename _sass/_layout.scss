@@ -278,6 +278,21 @@ $left-container-width: 200px;
 
         margin-bottom: $spacing-unit;
     }
+
+    blockquote {
+        margin-left: $spacing-unit*3;
+        margin-right: $spacing-unit*3;
+
+        p {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    li {
+        margin-left: $spacing-unit*3;
+        margin-right: $spacing-unit*3;
+    }
 }
 
 .center {
