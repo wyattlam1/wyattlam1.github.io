@@ -293,6 +293,11 @@ $left-container-width: 200px;
         margin-left: $spacing-unit*3;
         margin-right: $spacing-unit*3;
 
+        @include media-query($on-palm) {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
         p {
             padding-left: 0;
             padding-right: 0;
@@ -302,6 +307,11 @@ $left-container-width: 200px;
     li {
         margin-left: $spacing-unit*3;
         margin-right: $spacing-unit*3;
+
+        @include media-query($on-palm) {
+            margin-left: 0;
+            margin-right: 0;
+        }
     }
 }
 
