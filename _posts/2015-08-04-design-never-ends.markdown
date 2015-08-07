@@ -5,7 +5,7 @@ date:   2015-08-04
 categories: design
 extra_css: posts/design-never-ends.css
 ---
-This is the fifth iteration of my personal website. I can't believe I purchsed the wyattlam.com domain six years ago and launched my first site soon after. I knew almost nothing about web design then (still have minimal knowledge now) but *wow* it was interesting to look back at my previous designs.
+This is the fifth iteration of my personal website. I can't believe I purchased the wyattlam.com domain six years ago and launched my first site soon after. I knew almost nothing about web design then (still have minimal knowledge now) but *wow* it was interesting to look back at my previous designs.
 
 <br>
 
