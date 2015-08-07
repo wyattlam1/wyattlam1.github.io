@@ -223,6 +223,16 @@ $left-container-width: 200px;
         line-height: 30px;
     }
 
+    h1 {
+        padding-left: $spacing-unit*3;
+        padding-right: $spacing-unit*3;
+
+        @include media-query($on-palm) {
+            padding-left: 0;
+            padding-right: 0;
+        }        
+    }
+
     h2 {        
         font-size: 32px;
 
