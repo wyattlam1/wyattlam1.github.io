@@ -9,6 +9,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wyattlam.com" # the base hostname & protocol for your site
 permalink: /posts/:title
 
+# Resource URLs
+images: "/resources/"
+
 # Usernames
 twitter_username: Wyatt_Lam
 github_username:  wyattlam1
