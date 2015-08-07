@@ -5,7 +5,7 @@ date:   2015-08-04
 categories: design
 extra_css: posts/design-never-ends.css
 ---
-This is the fifth iteration of my personal website. I can't believe I purchased the wyattlam.com domain six years ago and launched my first site soon after. I knew almost nothing about web design then (still have minimal knowledge now) but *wow* it was interesting to look back at my previous designs.
+This is the sixth iteration of my personal website. I can't believe I purchased the wyattlam.com domain six years ago and launched my first site soon after. I knew almost nothing about web design then (probably still have minimal knowledge now) but *wow* it was interesting to look back at my previous designs.
 
 <br>
 
@@ -17,9 +17,9 @@ This is the fifth iteration of my personal website. I can't believe I purchased 
         </a>
     </div>
     <div class="row" style="float: right">
-        <a href="{{ site.images }}/design_never_ends_site_2.jpg" data-lightbox="site" data-title="Iterated on the earlier design.">
+        <a href="{{ site.images }}/design_never_ends_site_2.jpg" data-lightbox="site" data-title="Another iteration on the earlier design.">
             <img src="{{ site.images }}/design_never_ends_site_2.jpg" />
-            <span class="img-caption">Iterated on the earlier design.</span>
+            <span class="img-caption">Another iteration on the earlier design.</span>
         </a>
     </div>
 </div>
@@ -38,13 +38,13 @@ I clearly remember the point at which I decided to completely reboot each iterat
         </a>
     </div>
     <div class="row" style="float: right">
-        <a href="{{ site.images }}/design_never_ends_site_4.jpg" data-lightbox="site" data-title="Simplified and set blog to appear first.">
+        <a href="{{ site.images }}/design_never_ends_site_4.jpg" data-lightbox="site" data-title="Simplified and moved blog to be primary content.">
             <img class="bordered" src="{{ site.images }}/design_never_ends_site_4.jpg" />
-            <span class="img-caption">Simplified and set blog to appear first.</span>
+            <span class="img-caption">Simplified and moved blog to be primary content.</span>
         </a>
     </div>
 </div>
 
 <br>
 
-Well, here's the 6th iteration of my website. I plan on keeping this one *up-to-date*, but come to think of it, I said the same thing each time in the past...
+Well, here's the sixth iteration of my website. I plan on keeping this one *up-to-date*, but come to think of it, I said the same thing each time in the past...
