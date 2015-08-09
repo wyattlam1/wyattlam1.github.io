@@ -112,6 +112,7 @@ body:after {
   left: 0;
   float: left;
   background: url(../js/lightbox2/images/prev.png) left 48% no-repeat;
+  background-size: 30px 30px;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -130,6 +131,7 @@ body:after {
   right: 0;
   float: right;
   background: url(../js/lightbox2/images/next.png) right 48% no-repeat;
+  background-size: 30px 30px;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -191,9 +193,10 @@ body:after {
 .lb-data .lb-close {
   display: block;
   float: right;
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
   background: url(../js/lightbox2/images/close.png) top right no-repeat;
+  background-size: 15px 15px;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);

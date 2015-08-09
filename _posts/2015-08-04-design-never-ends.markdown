@@ -9,7 +9,7 @@ This is the sixth iteration of my personal website. I can't believe I purchased 
 
 <br>
 
-<div>
+<div class="img-section">
     <div class="row">
         <a href="{{ site.images }}/design_never_ends_site_1.jpg" data-lightbox="site" data-title="One of the first designs for my personal site.">
             <img src="{{ site.images }}/design_never_ends_site_1.jpg" />
@@ -23,14 +23,14 @@ This is the sixth iteration of my personal website. I can't believe I purchased 
         </a>
     </div>
 </div>
-    
+
 <br>
 
 I clearly remember the point at which I decided to completely reboot each iteration. There usually was one primary reason that made me want to redesign the site, but sometimes it was just to keep it up to date. You see, design never ends. There's always some aspect you can improve on - updating some visual UI, shifting content around to improve overall flow, or making room for newer content. That's what I love about design. It's forever ongoing, constantly growing to adapt to new requirements.
 
 <br>
 
-<div>
+<div class="img-section">
     <div class="row">
         <a href="{{ site.images }}/design_never_ends_site_3.jpg" data-lightbox="site" data-title="Large redesign with new content.">
             <img class="bordered" src="{{ site.images }}/design_never_ends_site_3.jpg" />

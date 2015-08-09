@@ -18,7 +18,7 @@ $left-container-width: 200px;
     padding-top: $spacing-unit * 2;
     padding-bottom: $spacing-unit * 2;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         float: none;
         padding: 0;
         text-align: center;
@@ -29,13 +29,13 @@ $left-container-width: 200px;
 .profile-img {
     border-radius: 5px;
     margin-bottom: $spacing-unit;
- 
+
     &:hover {
         opacity: .8;
         filter: alpha(opacity=80);
     }
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         margin-bottom: $spacing-unit / 2;
         width: 100px;
     }
@@ -48,7 +48,7 @@ $left-container-width: 200px;
     color: $grey-color-dark;
     font-size: 14px;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         margin-bottom: 0;
     }
 }
@@ -56,7 +56,7 @@ $left-container-width: 200px;
 .navigation {
     margin-top: $spacing-unit;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         margin: $spacing-unit / 2;
     }
 }
@@ -72,7 +72,7 @@ $left-container-width: 200px;
     color: $grey-color-light;
     font-weight: bold;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         display: inline-block;
         margin: 0;
         padding-left: $spacing-unit / 2;
@@ -83,7 +83,7 @@ $left-container-width: 200px;
 .network-container {
     margin-top: $spacing-unit;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         margin-top: $spacing-unit / 2;
     }
 }
@@ -108,14 +108,14 @@ $left-container-width: 200px;
         }
     }
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         margin-left: $spacing-unit / 2;
         margin-right: $spacing-unit / 2;
     }
 }
 
 .rss-subscribe {
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         visibility: hidden;
         height: 0;
     }
@@ -144,7 +144,7 @@ $left-container-width: 200px;
     border-left: 1px solid;
     border-left-color: $grey-color-light-light;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         padding: 0;
         margin: 0;
         border: 0;
@@ -188,7 +188,7 @@ $left-container-width: 200px;
     padding-right: $spacing-unit*3;
     margin-bottom: $spacing-unit;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         padding-left: 0;
         padding-right: 0;
     }
@@ -201,7 +201,7 @@ $left-container-width: 200px;
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         font-size: 28px;
     }
 }
@@ -211,41 +211,40 @@ $left-container-width: 200px;
     color: $grey-color;
     font-size: 20px;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         font-size: 16px;
     }
 }
 
 .post-content {
-    color: $grey-color-dark;
+    color: $grey-color-dark-dark;
     font-size: 20px;
     line-height: 40px;
     font-weight: 300;
 
-    margin-bottom: $spacing-unit;    
+    padding-left: $spacing-unit*3;
+    padding-right: $spacing-unit*3;
+    margin-bottom: $spacing-unit;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
+        padding-left: 0;
+        padding-right: 0;
         font-size: 18px;
         line-height: 30px;
     }
 
-    h1 {
-        padding-left: $spacing-unit*3;
-        padding-right: $spacing-unit*3;
+    .img-section {
+        margin-left: -$spacing-unit*3;
+        margin-right: -$spacing-unit*3;
 
-        @include media-query($on-palm) {
-            padding-left: 0;
-            padding-right: 0;
-        }        
+         @include media-query($on-phone) {
+            margin-left: 0;
+            margin-right: 0;
+        }
     }
 
-    h2 {        
+    h2 {
         font-size: 32px;
-
-        @include media-query($on-palm) {
-            padding-left: 0;
-            padding-right: 0;
-        }
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -253,15 +252,7 @@ $left-container-width: 200px;
     }
 
     h3 {
-        padding-left: $spacing-unit*3;
-        padding-right: $spacing-unit*3;
-
         font-size: 20px;
-
-        @include media-query($on-palm) {
-            padding-left: 0;
-            padding-right: 0;
-        }
 
         @include media-query($on-laptop) {
             font-size: 16px;
@@ -269,14 +260,7 @@ $left-container-width: 200px;
     }
 
     h4 {
-        padding-left: $spacing-unit*3;
-        padding-right: $spacing-unit*3;
         font-size: 20px;
-
-        @include media-query($on-palm) {
-            padding-left: 0;
-            padding-right: 0;
-        }
 
         @include media-query($on-laptop) {
             font-size: 18px;
@@ -284,40 +268,7 @@ $left-container-width: 200px;
     }
 
     p {
-        padding-left: $spacing-unit*3;
-        padding-right: $spacing-unit*3;
-
-        @include media-query($on-palm) {
-            padding-left: 0;
-            padding-right: 0;
-        }
-
         margin-bottom: $spacing-unit;
-    }
-
-    blockquote {
-        margin-left: $spacing-unit*3;
-        margin-right: $spacing-unit*3;
-
-        @include media-query($on-palm) {
-            margin-left: 0;
-            margin-right: 0;
-        }
-
-        p {
-            padding-left: 0;
-            padding-right: 0;
-        }
-    }
-
-    li {
-        margin-left: $spacing-unit*3;
-        margin-right: $spacing-unit*3;
-
-        @include media-query($on-palm) {
-            margin-left: 0;
-            margin-right: 0;
-        }
     }
 }
 
@@ -333,6 +284,11 @@ $left-container-width: 200px;
     text-align: center;
     font-style: italic;
     font-size: 14px;
+}
+
+.pagination {
+    margin-top: $spacing-unit;
+    padding-left: $spacing-unit;
 }
 
 
@@ -357,7 +313,7 @@ $about-logo-width-smaller: 60px;
     float: left;
     width: $about-logo-width;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         width: $about-logo-width-smaller;
     }
 }
@@ -365,7 +321,7 @@ $about-logo-width-smaller: 60px;
 .about .description-container {
     margin-left: $about-logo-width + $spacing-unit * 2;
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         margin-left: $about-logo-width;
     }
 }
@@ -429,7 +385,7 @@ $about-logo-width-smaller: 60px;
         }
     }
 
-    @include media-query($on-palm) {
+    @include media-query($on-phone) {
         position: absolute;
         top: 9px;
         right: 30px;
@@ -537,7 +493,7 @@ $about-logo-width-smaller: 60px;
     }
 }
 
-@include media-query($on-palm) {
+@include media-query($on-phone) {
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
