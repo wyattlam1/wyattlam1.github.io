@@ -6,11 +6,11 @@ categories: photo story
 ---
 I took a trip after the holiday rush to visit the Grand Canyon. This was the second time I’ve visited the Grand Canyon, with the first time being ten years ago. We woke up at 4:30am and drove an hour from the hotel in order to catch the sunrise. Bundled from head to toe, we trekked out to the rim in the eight degree weather, shivering with every step.  *It was totally worth it.*
 
-<br>
-
 {% include photo-story-2x1-60-40.html thumb1="https://farm8.staticflickr.com/7583/16034220669_25576ac105_c_d.jpg" photo1="https://farm8.staticflickr.com/7583/16034220669_492b19f1dd_h_d.jpg" thumb2="https://farm8.staticflickr.com/7520/16219523962_b29480c2fb_c_d.jpg" photo2="https://farm8.staticflickr.com/7520/16219523962_d2189d9762_h_d.jpg" caption="Sunrise at Mather Point" %}
 
 {% include photo-story-2x1-60-40.html thumb1="https://farm8.staticflickr.com/7490/16220330695_c62ab5300c_z_d.jpg" photo1="https://farm8.staticflickr.com/7490/16220330695_b57c0eda9d_h_d.jpg" thumb2="https://farm8.staticflickr.com/7501/16218463121_05f77bbdb5_z_d.jpg" photo2="https://farm8.staticflickr.com/7501/16218463121_20bb145bd5_h_d.jpg" %}
+
+<div class="img-section-divider"></div>
 
 *“Do nothing to mar it’s grandeur, for the ages have been at work upon it and man cannot improve it. Keep it for your children, your children’s children and all who come after you.”*
 ===

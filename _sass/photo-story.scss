@@ -37,8 +37,8 @@
     background-position: center center;
     padding: 0;
     margin-bottom: -15px;
-
-    background-color: #765123;
+    background-color: $grey-color-light-light;
+    
     height: 300px;
 
     @include media-query($on-phone) {
