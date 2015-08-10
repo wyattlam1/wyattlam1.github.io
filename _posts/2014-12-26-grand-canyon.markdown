@@ -2,7 +2,8 @@
 layout: post
 title:  "Grand Canyon"
 date:   2014-12-26
-categories: photo story
+categories: photo-story
+cover: https://farm8.staticflickr.com/7484/16218512851_a37ac3ecf0_b_d.jpg
 ---
 I took a trip after the holiday rush to visit the Grand Canyon. This was the second time I’ve visited the Grand Canyon, with the first time being ten years ago. We woke up at 4:30am and drove an hour from the hotel in order to catch the sunrise. Bundled from head to toe, we trekked out to the rim in the eight degree weather, shivering with every step.  *It was totally worth it.*
 

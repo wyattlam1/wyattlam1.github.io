@@ -154,6 +154,33 @@ $left-container-width: 200px;
     }
 }
 
+
+$photo-list-story-height: 200px;
+.post-list-photo-story {
+    background-size: cover;
+    background-position: center center;
+    opacity: .8;
+    height: $photo-list-story-height;
+
+    .post-list-title {
+        color: #FFFFFF;
+        position: relative;
+        bottom: $spacing-unit;
+    }
+}
+
+.post-list-photo-story-overlay {
+    height: $photo-list-story-height + $spacing-unit*2;
+    background-color: #000000;
+    opacity: 0.6;
+
+    margin: -$spacing-unit;
+
+    &:hover {
+        opacity: 0.2;
+    }
+}
+
 .post-list-title {
     font-size: 24px;
     font-weight: 400;
