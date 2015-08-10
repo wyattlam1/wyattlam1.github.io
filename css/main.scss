@@ -32,6 +32,7 @@ $grey-color-dark-dark:  darken($grey-color, 35%);
 $content-width:    80%;
 
 $on-phone:         600px;
+$on-tablet:        800px;
 $on-laptop:        800px;
 
 
@@ -54,5 +55,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
+        "photo-story",
         "syntax-highlighting"
 ;

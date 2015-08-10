@@ -121,24 +121,11 @@ $left-container-width: 200px;
     }
 }
 
-/*.network .icon--linkedin {
-    > svg {
-        background-color: $grey-color-light;
-        border-radius: 5px;
-
-        path {
-            fill: #FFFFFF;
-        }
-    }
-}*/
-
 /**
  * Right Container
  */
 
 .right-container {
-    padding-left: $spacing-unit;
-    padding-right: $spacing-unit;
     padding-top: $spacing-unit;
     margin-left: $left-container-width + $spacing-unit * 2;
     border-left: 1px solid;
@@ -154,7 +141,8 @@ $left-container-width: 200px;
 }
 
 .post-list {
-    margin-left: 0;
+    margin-left: $spacing-unit;
+    margin-right: $spacing-unit;
     list-style: none;
 
     & li {
@@ -179,18 +167,15 @@ $left-container-width: 200px;
 /**
  * Posts
  */
-.post {
-    padding: $spacing-unit $spacing-unit 0px $spacing-unit;
-}
-
 .post-header {
-    padding-left: $spacing-unit*3;
-    padding-right: $spacing-unit*3;
+    padding-left: $spacing-unit*5;
+    padding-right: $spacing-unit*5;
+    margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
 
     @include media-query($on-phone) {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: $spacing-unit;
+        padding-right: $spacing-unit;
     }
 }
 
@@ -207,11 +192,15 @@ $left-container-width: 200px;
 }
 
 .post-meta {
+    padding-left: $spacing-unit*4;
+    padding-right: $spacing-unit*4;
     text-align: right;
     color: $grey-color;
     font-size: 20px;
 
     @include media-query($on-phone) {
+        padding-left: $spacing-unit;
+        padding-right: $spacing-unit;
         font-size: 16px;
     }
 }
@@ -222,25 +211,15 @@ $left-container-width: 200px;
     line-height: 40px;
     font-weight: 300;
 
-    padding-left: $spacing-unit*3;
-    padding-right: $spacing-unit*3;
+    padding-left: $spacing-unit*5;
+    padding-right: $spacing-unit*5;
     margin-bottom: $spacing-unit;
 
     @include media-query($on-phone) {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: $spacing-unit;
+        padding-right: $spacing-unit;
         font-size: 18px;
         line-height: 30px;
-    }
-
-    .img-section {
-        margin-left: -$spacing-unit*3;
-        margin-right: -$spacing-unit*3;
-
-         @include media-query($on-phone) {
-            margin-left: 0;
-            margin-right: 0;
-        }
     }
 
     h2 {
@@ -280,6 +259,7 @@ $left-container-width: 200px;
 .img-caption {
     display: block;
     padding: 0;
+    padding-top: 15px;
     margin: 0 auto;
     text-align: center;
     font-style: italic;
