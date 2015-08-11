@@ -141,9 +141,15 @@ $left-container-width: 200px;
 }
 
 .post-list {
+    list-style: none;
+
     margin-left: $spacing-unit;
     margin-right: $spacing-unit;
-    list-style: none;
+
+    @include media-query($on-phone) {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
     & li {
         padding: $spacing-unit;
@@ -304,12 +310,17 @@ $photo-list-story-height: 200px;
  */
 
 $about-logo-width: 100px;
-$about-logo-width-smaller: 60px;
+$about-logo-width-smaller: 50px;
 
 .about {
     padding-top: $spacing-unit;
     padding-left: $spacing-unit * 2;
     padding-right: $spacing-unit * 2;
+
+    @include media-query($on-phone) {
+        padding-left: $spacing-unit;
+        padding-right: $spacing-unit;
+    }
 }
 
 .about .container {
@@ -329,7 +340,11 @@ $about-logo-width-smaller: 60px;
     margin-left: $about-logo-width + $spacing-unit * 2;
 
     @include media-query($on-phone) {
-        margin-left: $about-logo-width;
+        margin-left: 0; /*$about-logo-width;*/
+
+        & h1 {
+            margin-left: $about-logo-width;
+        }
     }
 }
 
