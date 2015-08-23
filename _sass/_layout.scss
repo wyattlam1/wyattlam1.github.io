@@ -153,6 +153,7 @@ $left-container-width: 200px;
 
     & li {
         padding: $spacing-unit;
+        margin-bottom: $spacing-unit / 2;
 
         &:hover {
             background-color: lighten($grey-color, 46%);
@@ -171,7 +172,13 @@ $photo-list-story-height: 200px;
     .post-list-title {
         color: #FFFFFF;
         position: relative;
-        bottom: $spacing-unit;
+        bottom: $photo-list-story-height;
+    }
+
+    .post-list-subtitle {
+        color: #CCCCCC;
+        position: relative;
+        bottom: $photo-list-story-height;
     }
 }
 
