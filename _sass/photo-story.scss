@@ -1,6 +1,6 @@
 .img-section {
-    margin-left: -$spacing-unit*3;
-    margin-right: -$spacing-unit*3;
+    margin-left: -$post-content-padding/2;
+    margin-right: -$post-content-padding/2;
 
     @include media-query($on-phone) {
         margin-left: 0;
@@ -9,8 +9,8 @@
 }
 
 .img-section-fullscreen {
-    margin-left: -$spacing-unit*5;
-    margin-right: -$spacing-unit*5;
+    margin-left: -$post-content-padding;
+    margin-right: -$post-content-padding;
 
     @include media-query($on-phone) {
         margin-left: 0;
