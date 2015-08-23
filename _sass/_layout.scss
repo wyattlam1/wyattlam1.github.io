@@ -360,7 +360,7 @@ $post-content-padding: $spacing-unit*6;
     h2 {
         font-size: 32px;
 
-        @include media-query($on-laptop) {
+        @include media-query($on-phone) {
             font-size: 28px;
         }
     }
@@ -368,16 +368,16 @@ $post-content-padding: $spacing-unit*6;
     h3 {
         font-size: 20px;
 
-        @include media-query($on-laptop) {
-            font-size: 16px;
+        @include media-query($on-phone) {
+            font-size: 14px;
         }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 16px;
 
-        @include media-query($on-laptop) {
-            font-size: 18px;
+        @include media-query($on-phone) {
+            font-size: 12px;
         }
     }
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chicago"
+title:  "Downtown Chicago"
 subtitle: "2° F + (-12° F wind chill) + ☀"
 date:   2015-02-22
 categories: photo-story
@@ -12,7 +12,7 @@ SFO ✈ ORD
 
 {% include photo-story-2x1-50-50-vertical.html thumb1="https://farm9.staticflickr.com/8589/15987347503_b0ca798d58_c_d.jpg" photo1="https://farm9.staticflickr.com/8589/15987347503_0f112b85da_h_d.jpg" thumb2="https://farm9.staticflickr.com/8652/15984862324_d53a654f08_c_d.jpg" photo2="https://farm9.staticflickr.com/8652/15984862324_771af68906_h_d.jpg" %}
 
-<div class="img-section-divider"></div>
+<div class="img-section-spacer"></div>
 
 I flew out to Chicago to visit Diana for a week in mid February. Braving the frigid cold, we headed out for the day to stroll around downtown Chicago. The 2 degree temperature was actually bearable. It was only the wind chill that made it feel like little daggers stabbing into your face. I couldn’t decide if I preferred this sunny, freezing Chicago to the cloudy, slightly warmer Seattle winter.
 
@@ -79,11 +79,11 @@ After strolling around for the day. We decided to wind down for the night with a
 <div class="img-section-divider"></div>
 
 [Click here](https://www.flickr.com/photos/wyattlam/sets/72157650706049847) to view part one of the album.
-===
+====
 {: style="text-align: center"}
 
 [Click here](https://www.flickr.com/photos/wyattlam/sets/72157650761122847) to view part two of the album.
-===
+====
 {: style="text-align: center"}
 
 
