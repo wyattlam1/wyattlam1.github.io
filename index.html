@@ -15,7 +15,7 @@ layout: default
         <span class="post-list-subtitle">Published {{ post.date | date: "%b %-d, %Y" }}</span>
       </li>
     </a>
-    {% else %}
+    {% else %}  
     <a href="{{ post.url | prepend: site.baseurl }}">
       <li>
         <span class="post-list-title">{{ post.title }}</span>

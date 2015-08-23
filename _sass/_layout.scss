@@ -1,15 +1,88 @@
-
-$left-container-width: 200px;
-
+/**
+ * MAIN CSS
+ */
 .container {
     padding: 0px;
     margin: 0px;
+}
+
+
+/**
+ * Top Container
+ */
+.top-container {
+    border-bottom: 1px solid $grey-color-light-light;
+    padding-left: $spacing-unit*5;
+    padding-bottom: $spacing-unit/2;
+    margin-top: -$spacing-unit/2;
+    margin-bottom: $spacing-unit;
+
+    @include media-query($on-phone) {
+        padding: 0;
+        padding-top: $spacing-unit/2;
+        text-align: center;
+    }
+
+    .profile-bio {
+        font-size: 20px;
+
+        @include media-query($on-phone) {
+            font-size: 16px;
+            display: block;
+            width: 100%;
+            margin-bottom: $spacing-unit;
+            margin-bottom: 0;
+        }
+    }
+
+    .profile-img {
+        width: 50px;
+        margin-right: 20px;
+
+        @include media-query($on-phone) {
+            width: 75px;
+            margin-right: 0;
+            margin-bottom: $spacing-unit / 2;
+        }
+    }
+
+    .navigation {
+        float: right;
+        padding-right: $spacing-unit*3;
+        padding-top: $spacing-unit/2;  
+
+        @include media-query($on-phone) {
+            float: none;
+            padding: 0;
+            margin-bottom: $spacing-unit/2;
+        }
+    }
+
+    .navigation li {
+        display: inline-block;
+        margin-left: $spacing-unit;
+        margin-right: $spacing-unit;
+
+        @include media-query($on-phone) {
+            margin: 0;
+            padding-left: $spacing-unit / 2;
+            padding-right: $spacing-unit / 2;
+        }
+    }
+}
+
+/**
+ * Bottom Container
+ */
+.bottom-container {
+   
 }
 
 /**
  * Left Container
  */
 
+$left-container-width: 200px;
 .left-container {
     float: left;
     padding-left: $spacing-unit;
@@ -24,41 +97,58 @@ $left-container-width: 200px;
         text-align: center;
         width: 100%;
     }
+
+    .profile-bio {
+        display: block;
+        width: 100%;
+        margin-bottom: $spacing-unit;
+        
+        @include media-query($on-phone) {
+            margin-bottom: 0;
+        }
+    }
+
+    .profile-img {
+        margin-bottom: $spacing-unit;
+    
+        @include media-query($on-phone) {
+            margin-bottom: $spacing-unit / 2;
+            width: 75px;
+        }
+    }
+
+    .navigation {
+        margin-top: $spacing-unit;
+
+        @include media-query($on-phone) {
+            margin: $spacing-unit / 2;
+        }
+    }
+
+    .navigation li {
+        margin-bottom: 5px;
+
+        @include media-query($on-phone) {
+            display: inline-block;
+            margin: 0;
+            padding-left: $spacing-unit / 2;
+            padding-right: $spacing-unit / 2;
+        }
+    }
 }
 
 .profile-img {
     border-radius: 5px;
-    margin-bottom: $spacing-unit;
 
     &:hover {
         opacity: .8;
         filter: alpha(opacity=80);
     }
-
-    @include media-query($on-phone) {
-        margin-bottom: $spacing-unit / 2;
-        width: 100px;
-    }
 }
 
 .profile-bio {
-    display: block;
-    width: 100%;
-    margin-bottom: $spacing-unit;
     color: $grey-color-dark;
     font-size: 14px;
-
-    @include media-query($on-phone) {
-        margin-bottom: 0;
-    }
-}
-
-.navigation {
-    margin-top: $spacing-unit;
-
-    @include media-query($on-phone) {
-        margin: $spacing-unit / 2;
-    }
 }
 
 .navigation ul {
@@ -68,16 +158,8 @@ $left-container-width: 200px;
 }
 
 .navigation li {
-    margin-bottom: 5px;
     color: $grey-color-light;
     font-weight: bold;
-
-    @include media-query($on-phone) {
-        display: inline-block;
-        margin: 0;
-        padding-left: $spacing-unit / 2;
-        padding-right: $spacing-unit / 2;
-    }
 }
 
 .network-container {
