@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Downtown Chicago"
+title:  "Chicago"
 subtitle: "2° F + (-12° F wind chill) + ☀"
 date:   2015-02-22
 categories: photo-story
