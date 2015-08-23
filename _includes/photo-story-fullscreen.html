@@ -2,4 +2,7 @@
     <a href="{{ include.photo }}" data-lightbox="site">
         <img src="{{ include.photo }}" />
     </a>
+    {% if include.caption %}
+        <span class="img-caption">{{ include.caption }}</span>
+    {% endif %}
 </div>

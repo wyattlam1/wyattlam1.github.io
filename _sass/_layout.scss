@@ -224,6 +224,18 @@ $photo-list-story-height: 200px;
     }
 }
 
+.post-subtitle {
+    color: $grey-color;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1;
+
+    @include media-query($on-phone) {
+        font-size: 28px;
+    }
+}
+
+
 .post-meta {
     padding-left: $spacing-unit*4;
     padding-right: $spacing-unit*4;

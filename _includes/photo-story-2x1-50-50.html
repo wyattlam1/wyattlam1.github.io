@@ -7,4 +7,7 @@
         <div class="img-container width50" style="float: right; background-image:url('{{ include.photo2 }}')">
         </div>
     </a>
+    {% if include.caption %}
+    <span class="img-caption">{{ include.caption }}</span>
+    {% endif %}
 </div>
