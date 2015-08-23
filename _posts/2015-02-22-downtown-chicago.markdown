@@ -18,7 +18,7 @@ I flew out to Chicago to visit Diana for a week in mid February. Braving the fri
 
 {% include photo-story-3x1-25-50-25.html thumb1="https://farm9.staticflickr.com/8623/16489843218_ca28844890_z_d.jpg" photo1="https://farm9.staticflickr.com/8623/16489843218_f8cc66e3e6_h_d.jpg" thumb2="https://farm9.staticflickr.com/8576/16057483653_37822e1c28_z_d.jpg" photo2="https://farm9.staticflickr.com/8576/16057483653_e768847113_h_d.jpg" thumb3="https://farm9.staticflickr.com/8573/16470147487_98e2605846_z_d.jpg" photo3="https://farm9.staticflickr.com/8573/16470147487_3231fb469d_h_d.jpg" %}
 
-<div class="img-section-divider"></div>
+<div class="img-section-spacer"></div>
 
 <!-- INSERT VIDEO -->
 
@@ -29,11 +29,7 @@ I flew out to Chicago to visit Diana for a week in mid February. Braving the fri
 
 {% include photo-story-100.html thumb="https://farm9.staticflickr.com/8664/16556944450_d5e57c4130_c_d.jpg" photo="https://farm9.staticflickr.com/8664/16556944450_2ad1f1bb71_h_d.jpg" caption="Millennium Monument" %}
 
-<div class="img-section-divider"></div>
-
 {% include photo-story-fullscreen.html photo="https://farm1.staticflickr.com/767/20774519296_98fa466174_h_d.jpg" caption="Cloud Gate (“The Bean”)" %}
-
-<br>
 
 {% include photo-story-100.html thumb="https://farm9.staticflickr.com/8571/16720124142_5078afc98f_z_d.jpg" photo="https://farm9.staticflickr.com/8571/16720124142_6dc18dfcc4_h_d.jpg" caption="168 stainless steel plates welded together." %}
 
@@ -50,8 +46,6 @@ I flew out to Chicago to visit Diana for a week in mid February. Braving the fri
 <div class="img-section-divider"></div>
 
 {% include photo-story-100.html thumb="https://farm9.staticflickr.com/8599/16093089614_1f84ac3d14_c_d.jpg" photo="https://farm9.staticflickr.com/8599/16093089614_103e5b01e2_h_d.jpg" caption="United States Post Office (Loop Station Chicago, Illinois)" %}
-
-<div class="img-section-divider"></div>
 
 {% include photo-story-fullscreen.html photo="https://farm9.staticflickr.com/8603/16744397015_89a1c0fe91_h_d.jpg" caption="The “Windy City”" %}
 
