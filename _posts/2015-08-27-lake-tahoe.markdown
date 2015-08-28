@@ -1,17 +1,25 @@
 ---
 layout: post
 title:  "Lake Tahoe"
-subtitle: "Wake up at 4:00am for the sunrise? Ok."
-date:   2015-08-25
+subtitle: "Wake up at 4:30am for the sunrise? Ok."
+date:   2015-08-27
 categories: photo-story
 cover: https://farm1.staticflickr.com/729/20703213549_07b77e860a_c_d.jpg
 ---
 
+{% include photo-story-100.html photo="20727494618" %}
+
+<div class="img-section-spacer"></div>
+<br>
+
+I took a weekend trip with the family to Lake Tahoe a couple of weekends ago.  It's been awhile since we have gone on an outdoorsy trip, so we were all pretty excited about it. It turned out to be an awesome weekend away and I came back with some pretty fantastic shots.  
+
+<br>
+<div class="img-section-spacer"></div>
+
 {% include photo-story-100.html photo="20907913811" %}
 
 <div class="img-section-spacer"></div>
-
-I took a weekend trip with the family to Lake Tahoe a couple of weekends ago.  It's been awhile since we have gone on an outdoorsy trip, so we were all pretty excited about it. It turned out to be an awesome weekend away and I came back with some pretty fantastic shots.  
 
 {% include photo-story-3x1-20-40-40.html photo1="20654451201" photo2="20620014416" photo3="20636575402" caption="Lakeside Beach" %}
 
@@ -115,6 +123,7 @@ We winded down the night with an early dinner back by the hotel.  Everyone was q
 {: style="text-align: center"}
 
 <br>
+
 <div class="img-section-spacer"></div>
 
 {% include photo-story-3x1-40-40-20.html photo1="20863673916" photo2="20701974008" photo3="20701976808" caption="Sunset at Sand Harbor" %}
@@ -131,7 +140,7 @@ We winded down the night with an early dinner back by the hotel.  Everyone was q
 
 <div class="img-section-divider"></div>
 
-After walking away with such great shots of the sunset at Sand Harbor, Wilson and I decided we could not leave Tahoe without capturing a sunrise.  We were leaving the day after, so why not take the last chance?
+After walking away with such great shots of the sunset at Sand Harbor, Wilson and I decided we could not leave Tahoe without capturing a sunrise.  We were leaving the day after, so why not take the last chance? Wake up at 4:30am for the sunrise? Ok.
 
 > 4:30am &nbsp;&nbsp; - &nbsp;&nbsp; Wake up.
 
