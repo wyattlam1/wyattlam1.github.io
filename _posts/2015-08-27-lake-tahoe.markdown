@@ -125,7 +125,11 @@ We winded down the night with an early dinner back by the hotel.  Everyone was q
 <div class="img-section-spacer"></div>
 <br>
 
-{% include photo-story-3x1-40-40-20.html photo1="20863673916" photo2="20701974008" photo3="20701976808" caption="Sunset at Sand Harbor" %}
+{% include photo-story-100.html photo="20863673916" caption="Sunset at Sand Harbor" %}
+
+{% include photo-story-80-20.html photo1="20701974008" photo2="20701976808" %}
+
+<div class="img-section-spacer"></div>
 
 {% include photo-story-fullscreen.html photo="20703213549" %}
 
@@ -168,3 +172,8 @@ After walking away with such great shots of the sunset at Sand Harbor, Wilson an
 <br>
 
 ## Yea. It was totally worth it.
+
+<br>
+
+[Click here](https://www.flickr.com/photos/wyattlam/sets/72157657727490791) to view the album.
+====

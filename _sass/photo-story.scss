@@ -129,3 +129,11 @@
         width: 100%;
     }
 }
+
+.width80 {
+    width: 79.5%;
+
+    @include media-query($on-phone) {
+        width: 100%;
+    }
+}
