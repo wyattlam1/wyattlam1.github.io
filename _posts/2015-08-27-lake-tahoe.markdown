@@ -14,8 +14,8 @@ cover: https://farm1.staticflickr.com/729/20703213549_07b77e860a_c_d.jpg
 
 I took a weekend trip with the family to Lake Tahoe a couple of weekends ago.  It's been awhile since we have gone on an outdoorsy trip, so we were all pretty excited about it. It turned out to be an awesome weekend away and I came back with some pretty fantastic shots.  
 
-<br>
 <div class="img-section-spacer"></div>
+<br>
 
 {% include photo-story-100.html photo="20907913811" %}
 
@@ -122,9 +122,8 @@ We winded down the night with an early dinner back by the hotel.  Everyone was q
 ### Finally, the sun set and we were met with this amazing display of colors.
 {: style="text-align: center"}
 
-<br>
-
 <div class="img-section-spacer"></div>
+<br>
 
 {% include photo-story-3x1-40-40-20.html photo1="20863673916" photo2="20701974008" photo3="20701976808" caption="Sunset at Sand Harbor" %}
 
