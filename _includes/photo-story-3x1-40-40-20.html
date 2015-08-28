@@ -1,0 +1,17 @@
+<div class="img-section">
+    <a id="{{ include.photo1 }}" class="img-link" href="" data-lightbox="site" data-title="{{ include.caption1 }}">
+        <div class="img-container width40">
+        </div>
+    </a>
+    <a id="{{ include.photo2 }}" class="img-link" href="" data-lightbox="site" data-title="{{ include.caption2 }}">
+        <div class="img-container width40">
+        </div>
+    </a>
+    <a id="{{ include.photo3 }}" class="img-link" href="" data-lightbox="site" data-title="{{ include.caption3 }}">
+        <div class="img-container width20">
+        </div>
+    </a>
+    {% if include.caption %}
+        <span class="img-caption">{{ include.caption }}</span>
+    {% endif %}
+</div>
