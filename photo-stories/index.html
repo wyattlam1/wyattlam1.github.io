@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<ul class="post-list">
+    {% for post in site.posts %}
+        {% if post.cover %}
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <li class="post-list-photo-story" style="background-image:url({{ post.cover }})">
+                    <div class="post-list-photo-story-overlay"></div>
+                    <span class="post-list-title">{{ post.title }}</span>
+                    <br>
+                    <span class="post-list-subtitle">Published {{ post.date | date: "%b %-d, %Y" }}</span>
+                </li>
+            </a>
+        {% endif %}
+    {% endfor %}
+</ul>
