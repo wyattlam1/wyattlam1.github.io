@@ -12,10 +12,17 @@
  */
 .top-container {
     border-bottom: 1px solid $grey-color-light-light;
-    padding-left: $spacing-unit*5;
     padding-bottom: $spacing-unit/2;
     margin-top: -$spacing-unit/2;
     margin-bottom: $spacing-unit;
+
+    .top-container-content {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: $spacing-unit/2;
+        padding-right: $spacing-unit/2;
+    }
 
     @include media-query($on-phone) {
         padding: 0;
@@ -49,7 +56,6 @@
 
     .navigation {
         float: right;
-        padding-right: $spacing-unit*3;
         padding-top: $spacing-unit/2;  
 
         @include media-query($on-phone) {
@@ -61,8 +67,7 @@
 
     .navigation li {
         display: inline-block;
-        margin-left: $spacing-unit;
-        margin-right: $spacing-unit;
+        margin-left: $spacing-unit*1.5;
 
         @include media-query($on-phone) {
             margin: 0;
@@ -401,6 +406,13 @@ $post-content-padding: $spacing-unit*6;
 .pagination {
     margin-top: $spacing-unit;
     padding-left: $spacing-unit;
+}
+
+#disqus_thread {
+    max-width: 800px;
+    margin: $spacing-unit*2 auto;
+    padding-top: $spacing-unit*2;
+    border-top: 1px solid #DDDDDD;
 }
 
 
