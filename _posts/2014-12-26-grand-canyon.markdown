@@ -46,7 +46,5 @@ I took a trip after the holiday rush to visit the Grand Canyon. This was the sec
 <div class="img-section-divider"></div>
 
 [Click here](https://www.flickr.com/photos/wyattlam/sets/72157650057265686/) to view the rest of the album.
-===
-{: style="text-align: center"}
-
+====
 <br>
