@@ -19,8 +19,6 @@ I took a weekend trip with the family to Lake Tahoe a couple of weekends ago.  I
 
 {% include photo-story-100.html photo="20907913811" %}
 
-<div class="img-section-spacer"></div>
-
 {% include photo-story-3x1-20-40-40.html photo1="20654451201" photo2="20620014416" photo3="20636575402" caption="Lakeside Beach" %}
 
 {% include photo-story-2x1-50-50.html photo1="20863800825" photo2="20675835148" caption="Setting up some timelapses." %}
@@ -37,11 +35,7 @@ For our first full day at Tahoe, we headed out for some day hikes on the west si
 
 {% include photo-story-2x1-60-40.html photo1="20267215904" photo2="20863544846" %}
 
-<div class="img-section-spacer"></div>
-
 {% include photo-story-2x1-50-50.html photo1="20268812193" photo2="20268817533" %}
-
-<div class="img-section-spacer"></div>
 
 {% include photo-story-100.html photo="20880161432" %}
 
@@ -61,19 +55,13 @@ We arrived at the parking lot of Eagle Lake shortly after and began our hike.
 
 {% include photo-story-100.html photo="20897119721" %}
 
-<div class="img-section-spacer"></div>
-
 <!-- VIDEO: 20030093383 -->
 
 {% include photo-story-100.html photo="20880194432" caption="At the top of Eagle Falls (it was practically non-existant)" %}
 
 {% include photo-story-2x1-50-50.html photo1="20701827200" photo2="20889883005" %}
 
-<div class="img-section-spacer"></div>
-
 {% include photo-story-fullscreen.html photo="20897147671" %}
-
-<div class="img-section-spacer"></div>
 
 {% include photo-story-2x1-50-50.html photo1="20897142301" photo2="20268881203" %}
 
@@ -84,8 +72,6 @@ The hike turned out to be shorter than we thought.  After two miles and forty-fi
 {% include photo-story-100.html photo="20889911365" caption="Eagle Lake" %}
 
 {% include photo-story-100.html photo="20889916515" %}
-
-<div class="img-section-spacer"></div>
 
 <!-- VIDEO: 20624999626 -->
 
@@ -129,15 +115,9 @@ We winded down the night with an early dinner back by the hotel.  Everyone was q
 
 {% include photo-story-80-20.html photo1="20701974008" photo2="20701976808" %}
 
-<div class="img-section-spacer"></div>
-
 {% include photo-story-fullscreen.html photo="20703213549" %}
 
-<div class="img-section-spacer"></div>
-
 {% include photo-story-100.html photo="20727244618" %}
-
-<div class="img-section-spacer"></div>
 
 {% include photo-story-100.html photo="20905491842" %}
 
@@ -155,17 +135,11 @@ After walking away with such great shots of the sunset at Sand Harbor, Wilson an
 
 {% include photo-story-2x1-50-50.html photo1="20729638000" photo2="20296661603" %}
 
-<div class="img-section-spacer"></div>
-
 {% include photo-story-2x1-50-50.html photo1="20727404790" photo2="20727494618" %}
-
-<div class="img-section-spacer"></div>
 
 <!-- VIDEO: 20044419633 -->
 
 {% include photo-story-100.html photo="20727491388" %}
-
-<div class="img-section-spacer"></div>
 
 {% include photo-story-2x1-60-40.html photo1="20891410356" photo2="20905720742" %}
 
