@@ -386,6 +386,10 @@ $post-content-padding: $spacing-unit*6;
     p {
         margin-bottom: $spacing-unit;
     }
+
+    a {
+        border-bottom: 1px solid darken($brand-color, 15%);
+    }
 }
 
 .center {
