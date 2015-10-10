@@ -7,7 +7,7 @@ categories: photo-story
 cover: https://c1.staticflickr.com/1/576/21303378483_15d65a1dbf_h_d.jpg
 ---
 
-I took a week off to visit Diana in Chicago towards the end of summer.  This time it was in t-shirt and shorts weather. What a big difference from [last time](/posts/downtown-chicago/). 
+Towards the end of summer, I took a week off to visit Diana in Chicago.  It was in t-shirts and shorts weather this time, which was a *huge* difference from [last time](/posts/downtown-chicago/). 
 
 {% include photo-story-100.html photo="21887698611" caption="Honeycomb Sculpture at Lincoln Park" %}
 
@@ -75,7 +75,7 @@ I took a week off to visit Diana in Chicago towards the end of summer.  This tim
 
 <div class="img-section-divider"></div>
 
-We walked through downtown all the way to the edge of Lake Michigan.  We were greeted with some pretty ominous clouds.  They made for some  great shots though.
+We walked through downtown all the way to the edge of Lake Michigan and were greeted with pretty ominous clouds.  They made for some great shots though.
 
 {% include photo-story-100.html photo="21924361445" %}
 
@@ -129,9 +129,10 @@ It eventually cleared up as we made our way down to the south side of downtown.
 
 {% include photo-story-100.html photo="21740679570" %}
 
-{% include photo-story-fullscreen.html photo="21950900225" caption="Classic skyline view" %}
+{% include photo-story-fullscreen.html photo="21950900225" caption="Blue hour skyline view" %}
 
 <div class="img-section-divider"></div>
 
 [Click here](https://www.flickr.com/photos/wyattlam/albums/72157658863320849) to view the album.
 ====
+{: style="text-align: center"}
