@@ -4,7 +4,8 @@ title:  "Chicago in the Summer"
 subtitle: "It's a lot warmer this time."
 date:   2015-10-07
 categories: photo-story
-cover: https://c1.staticflickr.com/1/576/21303378483_15d65a1dbf_h_d.jpg
+cover: https://c2.staticflickr.com/6/5670/21950900225_ca0a7072e6_b_d.jpg
+cover-offset: 50px
 ---
 
 Towards the end of summer, I took a week off to visit Diana in Chicago.  It was in t-shirts and shorts weather this time, which was a *huge* difference from [last time](/posts/downtown-chicago/). 

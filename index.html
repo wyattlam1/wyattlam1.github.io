@@ -6,7 +6,7 @@ layout: default
   {% for post in paginator.posts %}
     {% if post.cover %}
     <a href="{{ post.url | prepend: site.baseurl }}">
-      <li class="post-list-photo-story" style="background-image:url({{ post.cover }})">
+      <li class="post-list-photo-story" style="background-image:url({{ post.cover }}); background-position: 0 -{{ post.cover-offset }}">
         <div class="post-list-photo-story-overlay"></div>
         <span class="post-list-title">{{ post.title }}</span>
         <br>
