@@ -425,6 +425,8 @@ $post-content-padding: $spacing-unit*6;
 #disqus_thread {
     max-width: 800px;
     margin: $spacing-unit*2 auto;
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
     padding-top: $spacing-unit*2;
     border-top: 1px solid #DDDDDD;
 }
