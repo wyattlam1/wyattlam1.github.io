@@ -1,19 +1,28 @@
-<div class="img-section">
-    <a id="{{ include.photo1 }}" class="img-link" href="" data-lightbox="site" data-title="{{ include.caption1 }}">
-        <div class="img-container width20">
+<div>
+    <div class="img-section">
+
+        <div id="{{ include.photo1 }}" class="img-container width20">
+            <a data-lightbox="site" data-title="{{ include.caption1 }}"></a>
+        </div>        
+    
+        <div class="img-container-vertical-spacer"></div>
+
+        <div id="{{ include.photo2 }}" class="img-container width40">
+            <a data-lightbox="site" data-title="{{ include.caption2 }}"></a>
         </div>
-    </a>
-    <a id="{{ include.photo2 }}" class="img-link" href="" data-lightbox="site" data-title="{{ include.caption2 }}">
-        <div class="img-container width40">
+        
+        <div class="img-container-vertical-spacer"></div>
+
+        <div id="{{ include.photo3 }}" class="img-container width40">
+            <a data-lightbox="site" data-title="{{ include.caption3 }}"></a>
         </div>
-    </a>
-    <a id="{{ include.photo3 }}" class="img-link" href="" data-lightbox="site" data-title="{{ include.caption3 }}">
-        <div class="img-container width40">
-        </div>
-    </a>
+
+    </div>
+
     {% if include.caption %}
         <span class="img-caption">{{ include.caption }}</span>
     {% else %}
         <div class="img-section-spacer"></div>
     {% endif %}
+
 </div>

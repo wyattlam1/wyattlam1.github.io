@@ -1,7 +1,12 @@
-<div class="img-section">
-    <a id="{{ include.photo }}" class="img-link" href="" data-lightbox="site">
-        <img src="" />
-    </a>
+<div>
+    <div class="img-section">
+
+        <a data-lightbox="site" data-title="{{ include.caption }}"></a>
+            <img id="{{ include.photo }}" class="img-container" style="display: inline-block; max-width: 100%; height: auto;" />
+        </a>
+
+    </div>
+
     {% if include.caption %}
         <span class="img-caption">{{ include.caption }}</span>
     {% else %}
