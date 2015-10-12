@@ -49,8 +49,6 @@ We arrived at the parking lot of Eagle Lake shortly after and began our hike.
 
 {% include photo-story-2x1-50-50-vertical.html photo1="20897106421" photo2="20897113381" %}
 
-<div class="img-section-spacer"></div>
-
 {% include photo-story-100.html photo="20268827053" caption="Looking up at some beautiful clouds" %}
 
 {% include photo-story-100.html photo="20897119721" %}

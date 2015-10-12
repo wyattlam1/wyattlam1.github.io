@@ -25,19 +25,11 @@ I took a trip after the holiday rush to visit the Grand Canyon. This was the sec
 
 {% include photo-story-fullscreen.html photo="16194490106" %}
 
-<br>
-
 {% include photo-story-100.html photo="16034236169" %}
-
-<div class="img-section-spacer"></div>
 
 {% include photo-story-2x1-50-50.html photo1="16032865578"  photo2="16194501376" %}
 
-<div class="img-section-spacer"></div>
-
 {% include photo-story-100.html photo="16218469031" %}
-
-<div class="img-section-divider"></div>
 
 {% include photo-story-100.html photo="16011974438" caption="Enjoying the View" %}
 

@@ -19,11 +19,6 @@ I flew out to Chicago to visit Diana for a week in mid February. Braving the fri
 
 {% include photo-story-3x1-25-50-25.html photo1="16489843218" photo2="16057483653" photo3="16470147487" %}
 
-<div class="img-section-spacer"></div>
-
-<!-- INSERT VIDEO -->
-
-
 {% include photo-story-100.html photo="16558274249" caption="Beautiful Architecture" %}
 
 {% include photo-story-2x1-50-50.html photo1="16095503123" photo2="16529329869" caption="McCormick Tribune Plaza" %}
@@ -39,8 +34,6 @@ I flew out to Chicago to visit Diana for a week in mid February. Braving the fri
 {% include photo-story-3x1-20-40-40.html photo1="16508124407" photo2="16095471113" photo3="16529302359" caption="This is probably one of my favorite art pieces. I found the angles and curves of the structure combined with the grid-like pattern of the background buildings quite intriguing and fun to photograph. I could probably spend hours photographing this piece." %}
 
 {% include photo-story-2x1-50-50.html photo1="16714358412" photo2="16508147147" %}
-
-<div class="img-section-spacer"></div>
 
 {% include photo-story-100.html photo="16533853410" caption="Calder’s Flamingo" %}
 
@@ -59,11 +52,7 @@ Despite the cold, it was truly a beautiful day.
 
 {% include photo-story-2x1-50-50-vertical.html photo1="16122058094" photo2="16558287949" %}
 
-<div class="img-section-spacer"></div>
-
 {% include photo-story-100.html photo="16743236441" %}
-
-<div class="img-section-spacer"></div>
 
 {% include photo-story-100.html photo="16743224191" %}
 
