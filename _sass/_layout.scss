@@ -34,17 +34,9 @@
         text-align: center;
     }
 
-    .profile-bio {
-        font-size: 20px;
-        position: relative;
-        top: 7px;
-
-        @include media-query($on-phone) {
-            font-size: 14px;
-            display: block;
-            width: 100%;
-            margin-bottom: $spacing-unit/2;
-        }
+    .profile-title {
+        font-size: 38px;
+        vertical-align: middle;
     }
 
     .profile-img {
@@ -52,9 +44,7 @@
         margin-right: 20px;
 
         @include media-query($on-phone) {
-            width: 75px;
-            margin-right: 0;
-            margin-bottom: $spacing-unit / 2;
+            margin-bottom: $spacing-unit/2;
         }
     }
 
@@ -92,7 +82,7 @@
  * Left Container
  */
 
-$left-container-width: 200px;
+$left-container-width: 270px;
 .left-container {
     float: left;
     text-align: right;
@@ -108,6 +98,16 @@ $left-container-width: 200px;
         width: 100%;
     }
 
+    .profile-title {
+        font-size: 34px;
+
+        @include media-query($on-phone) {
+            font-size: 36px;
+            vertical-align: middle;
+            margin-right: 20px;
+        }
+    }
+
     .profile-bio {
         display: block;
         width: 100%;
@@ -119,10 +119,11 @@ $left-container-width: 200px;
     }
 
     .profile-img {
-        margin-bottom: $spacing-unit;
+        margin-top: $spacing-unit/2;
+        margin-bottom: $spacing-unit/2;
     
         @include media-query($on-phone) {
-            margin-bottom: $spacing-unit / 2;
+            margin-top: $spacing-unit/4;
             width: 75px;
         }
     }
