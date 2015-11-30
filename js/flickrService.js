@@ -73,10 +73,9 @@ function photoByComparingHeight(imgContainerHeight, photoSizes) {
     return photo;
 }
 
-$('.img-link').each(function(i, obj) {
-    var photoID = obj.id;
+$('.img-container').each(function(i, imgContainer) {
+    var photoID = imgContainer.id;
     flickrService.getPhotoSizes(photoID, function(photoSizes) {
-        var imgContainer = obj.children[0];
         var imgContainerWidth = imgContainer.offsetWidth;
         var imgContainerHeight = imgContainer.offsetHeight;
         var photo = "";
@@ -85,7 +84,7 @@ $('.img-link').each(function(i, obj) {
         } else {
            photo = photoByComparingWidth(imgContainerWidth, photoSizes);
         }
-        $(obj).attr("href", photoSizes.size[9].source);
+        $(imgContainer).attr("href", photoSizes.size[9].source);
         if ($(imgContainer).is('img')) {
             $(imgContainer).attr('src', photoSizes.size[9].source);
         } else {
