@@ -7,20 +7,21 @@
 $spacing-unit:     30px;
 
 // Fonts
-$base-font-family: 'Lato', sans-serif;
+$base-font-family: 'Open Sans', sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$header-font-family: 'Lato';
-$footer-font-family: 'Helvetica';
+$header-font-family: 'Open Sans';
+$footer-font-family: 'Open Sans';
 
-$post-font-family: 'Lato-Light';
+$post-font-family: 'Open Sans';
 
 // Colors
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #345f98;
+$link-color:       #5590dd;
 
 $grey-color:       #828282;
 $grey-color-light-light: lighten($grey-color, 30%);

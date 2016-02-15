@@ -84,7 +84,11 @@ $('.img-container').each(function(i, imgContainer) {
         } else {
            photo = photoByComparingWidth(imgContainerWidth, photoSizes);
         }
-        $(imgContainer).attr("href", photoSizes.size[9].source);
+
+        // set lightbox link
+        $(imgContainer.children[0]).attr("href", photoSizes.size[9].source);
+
+        // set actual image
         if ($(imgContainer).is('img')) {
             $(imgContainer).attr('src', photoSizes.size[9].source);
         } else {

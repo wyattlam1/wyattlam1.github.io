@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/wyattlam/workspace/wyattlam1.github.io",
+			"folder_exclude_patterns": [
+				"resources",
+				"_site",
+				".sass-cache"
+			],
+			"file_exclude_patterns": [
+				"*.sublime*"
+			]
+		}
+	]
+}
