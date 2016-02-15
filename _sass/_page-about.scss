@@ -1,0 +1,92 @@
+$about-logo-width: 100px;
+$about-logo-width-smaller: 50px;
+.about {
+    min-width: 800px;
+    overflow: hidden;
+    padding-left: $spacing-unit * 2;
+    padding-right: $spacing-unit * 2;
+
+    @include media-query($on-phone) {
+        min-width: 0;
+        padding-top: $spacing-unit;
+        padding-left: $spacing-unit;
+        padding-right: $spacing-unit;
+    }
+    
+    .about-content-container {
+        float: left;
+        width: 60%;
+        margin-right: $spacing-unit * 3;
+
+        @include media-query($on-phone) {
+            float: none;
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+    .todo-container {
+        & ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        & li {
+            margin-bottom: 20px;
+        }
+    }
+
+    .about-section-container {
+        margin-bottom: $spacing-unit * 2;
+
+        @include media-query($on-phone) {
+            margin-bottom: $spacing-unit;
+        }
+    }
+
+    .bio-container {
+        & ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        & li {
+            margin-bottom: 20px;
+        }
+    }
+
+    .about-profile-img {
+        width: 100%;
+    }
+
+    .job-container {
+        margin-bottom: $spacing-unit * 2;
+
+        @include media-query($on-phone) {
+            margin-bottom: $spacing-unit;
+        }
+    }
+
+    .job-container .logo {
+        float: left;
+        width: $about-logo-width;
+
+        @include media-query($on-phone) {
+            width: $about-logo-width-smaller;
+        }
+    }
+
+    .job-container .description-container {
+        margin-left: $about-logo-width + $spacing-unit;
+
+        @include media-query($on-phone) {
+            margin-left: $about-logo-width-smaller + $spacing-unit;
+
+            & h1 {
+                margin-left: $about-logo-width;
+            }
+        }
+    }
+}

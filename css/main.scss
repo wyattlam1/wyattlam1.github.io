@@ -51,11 +51,10 @@ $on-laptop:        800px;
 }
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "photo-story",
-        "syntax-highlighting"
+    "base",
+    "layout",
+    "page-about",
+    "photo-story"
 ;

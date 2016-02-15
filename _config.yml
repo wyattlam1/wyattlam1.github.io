@@ -27,3 +27,6 @@ paginate_path: "/posts/:num/"
 
 # Build settings
 markdown: kramdown
+
+sass:
+  style: compressed
