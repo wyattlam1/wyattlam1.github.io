@@ -187,81 +187,43 @@ $photo-list-story-height: 200px;
     color: $grey-color-dark;
 }
 
-/**
- * Posts
- */
+/*------------------------------
+    POSTS
+ -----------------------------*/
 $post-content-padding: $spacing-unit*6;
-.post {
-    display: block;
-    max-width: 800px;
-    margin: 0 auto;
-    padding-left: $post-content-padding;
-    padding-right: $post-content-padding;
-
-    @include media-query($on-phone) {
-        padding-left: $spacing-unit;
-        padding-right: $spacing-unit;
-    }
- }
-
-.post-header {
-    margin-top: $spacing-unit;
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    color: $grey-color-dark-dark;
-    font-size: 34px;
-    font-weight: bold;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-phone) {
-        font-size: 28px;
+.post { display: block; margin: 0 auto;
+    h1, h2, h3, h4, h5, h6 { padding: 0 ($post-content-padding) 0 ($post-content-padding); }
+    p { padding: 0 ($post-content-padding) 0 ($post-content-padding); margin-bottom: $spacing-unit; }
+    blockquote { 
+        margin: 0 0 ($spacing-unit) ($post-content-padding);
+        h1, h2, h3, h4, h5, h6 { padding-left: 0; }
+        p { padding-left: 0; }
     }
 }
+.post-header { margin: ($spacing-unit) 0 ($spacing-unit) 0; }
+.post-subtitle { padding: 0 ($post-content-padding) 0 ($post-content-padding); }
+.post-content { margin-bottom: $spacing-unit; }
+.post-photo-story-day-overlay { height: 100%; background-color: #000000; opacity: 0.2; 
+    &:hover { opacity: 0.0; }
+}
+.post-photo-story-day-title { position: absolute; bottom: 20px; right: 20px; }
 
-.post-subtitle {
-    color: $grey-color;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1;
-
-    @include media-query($on-phone) {
-        font-size: 16px;
+@include media-query($on-phone) {
+    .post { 
+        padding:0 ($spacing-unit) 0 ($spacing-unit);
+        h1, h2, h3, h4, h5, h6 { padding: 0; }
+        p { padding: 0; }
+        blockquote { margin-left: 0 };
     }
+    .post-subtitle { padding:0; }
 }
 
-
-.post-meta {
-    text-align: right;
-    color: $grey-color;
-    font-size: 20px;
-
-    @include media-query($on-phone) {
-        font-size: 16px;
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-    p { margin-bottom: $spacing-unit; }
-    blockquote { margin-bottom: $spacing-unit; }
-}
-
+/*------------------------------
+    OTHER
+ -----------------------------*/
 .center {
     display: block;
     margin:0 auto;
-}
-
-.img-caption {
-    display: block;
-    padding: 0;
-    padding-top: 15px;
-    margin: 0 auto;
-    text-align: center;
-    font-style: italic;
-    font-size: 14px;
 }
 
 .pagination {

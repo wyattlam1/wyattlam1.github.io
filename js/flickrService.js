@@ -89,12 +89,12 @@ $('.img-container').each(function(i, imgContainer) {
         $(imgContainer.children[0]).attr("href", photoSizes.size[9].source);
 
         // set actual image
-        if ($(imgContainer).is('img')) {
-            $(imgContainer).attr('src', photoSizes.size[9].source);
-        } else {
-            $(imgContainer).css('background-image', "url('" + photo.source + "')");
+        // div background images require at least width or height to be set.
+        //   In this case, we have a width of 100% and a height of 'auto', which doesn't render.
+        //   The solution is to force a padding of the width to height ratio.
+        if ($(imgContainer).hasClass('width100')) {
+            $(imgContainer).css('cssText', "padding-top:" + (photo.height/photo.width * 100) + '% !important');
         }
+        $(imgContainer).css('background-image', "url('" + photo.source + "')");
     });
-});
-
-    
+});    

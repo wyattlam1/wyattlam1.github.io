@@ -1,13 +1,10 @@
 <div>
     <div class="img-section-fullscreen">
-
-        <a data-lightbox="site" data-title="{{ include.caption }}"></a>
-            <img id="{{ include.photo }}" class="img-container" style="display: inline-block; max-width: 100%; height: auto;" />
-        </a>
-
+        <div id="{{ include.photo }}" class="img-container width100">
+            <a data-lightbox="site" data-title="{{ include.caption }}"></a>
+        </div>
     </div>
-
-    {% if include.caption %}
+    {% if include.caption and include.caption != "" %}
         <span class="img-caption">{{ include.caption }}</span>
     {% else %}
         <div class="img-section-spacer"></div>
