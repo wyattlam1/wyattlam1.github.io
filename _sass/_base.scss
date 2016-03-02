@@ -40,6 +40,24 @@ ul, ol, dl, figure,
     font-size: 20px;
 }
 
+/*------------------------------
+    POSTS
+ -----------------------------*/
+ .post-content {
+    font-family: $post-font-family;
+    color: $grey-color-dark;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 300;    
+
+    @include media-query($on-phone) { font-size: 18px; line-height: 30px; }
+
+    h1, h2, h3, h4, h5, h6 { font-family: $base-font-family; }
+    h2 { color: lighten($grey-color, 10%); font-size: 28px; @include media-query($on-phone) { font-size: 24px; } }
+    h3 { font-size: 20px; @include media-query($on-phone) { font-size: 14px; } }
+    h4 { font-size: 16px; @include media-query($on-phone) { font-size: 12px; } }
+}
+
 /**
  * PAGE - ABOUT
  **/

@@ -7,15 +7,12 @@
 $spacing-unit:     30px;
 
 // Fonts
-$base-font-family: 'Open Sans', sans-serif;
+$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$header-font-family: 'Open Sans';
-$footer-font-family: 'Open Sans';
-
-$post-font-family: 'Open Sans';
+$post-font-family: 'Georgia', sans-serif;
 
 // Colors
 $text-color:       #111;
@@ -35,7 +32,6 @@ $content-width:    80%;
 $on-phone:         800px;
 $on-tablet:        800px;
 $on-laptop:        800px;
-
 
 // Using media queries with like this:
 // @include media-query($on-phone) {
