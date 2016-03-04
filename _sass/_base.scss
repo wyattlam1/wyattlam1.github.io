@@ -53,6 +53,8 @@ ul, ol, dl, figure,
 }
 .post-meta { text-align: right; color: $grey-color; font-size: 20px; }
 .post-photo-story-day-title { color:#FFFFFF; font-size: 40px; font-weight: bold; }
+.post-list-title { font-size: 24px; font-weight: 400; }
+.post-excerpt { line-height: 30px; color: $grey-color-dark; }
 
 @include media-query($on-phone) {
     .post-title { font-size: 28px; }
