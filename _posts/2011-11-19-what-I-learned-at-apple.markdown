@@ -6,7 +6,7 @@ categories: technology
 ---
 I interned at Apple Inc. this past summer as a software engineer. I was part of the Consumer Applications Engineering department, who was in charge of the popular Mac OS applications such as iPhoto, GarageBand, or Final Cut Pro. The three months I worked at Apple became one of my best learning experiences in my academic career. I gained invaluable insights on building a successful career and experienced the culture of a large company. Out of all the things I learned, one specific aspect intrigued me the most. It was the company’s attention to detail.
 
-![Lion OSX]({{ site.baseurl }}/resources/lionOSX.jpg){: .center-img }
+![Lion OSX]({{ site.baseurl }}/resources/lionOSX.jpg){: .center }
 
 Many people feel that Apple’s products exhibit elegant designs. Whether it be the user interface of an application or the physical appearance of a Mac, the product just looks aesthetically pleasing. While working at Apple, I realized Apple invests an extensive amount of time and effort into their designs, whereas other companies may deem it unnecessary. Apple engineers strive to polish every minute detail in their product designs. In Mac applications, the spacing within applications is effectively utilized providing a comfortable feel while navigating through it. Icons are drawn to pixel precision displaying extreme sharpness in clarity and color. Even the typography of navigation bars or menu screens are specifically chosen to suit the application.
 

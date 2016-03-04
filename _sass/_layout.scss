@@ -1,118 +1,47 @@
-/**
- * MAIN CSS
- */
-.container {
-    padding: 0px;
-    margin: 0px;
-}
+/*------------------------------
+    MAIN
+ -----------------------------*/
+.container { padding: 0; margin: 0; }
+.body_container { padding: 0; margin: 0; }
 
-.body_container {
-    padding: 0;
-    margin: 0;
-}
-
-/**
- * Left Container
- */
-
+/*------------------------------
+    LEFT CONTAINER
+ -----------------------------*/
 $left-container-width: 230px;
-.left-container {
-    top: 0;
-    left: 0;
-    position: fixed;
-    width: $left-container-width;
-    height: 100%;
-    padding-left: $spacing-unit;
-    padding-right: $spacing-unit;
-    padding-top: $spacing-unit;
-    
-    text-align: right;
-
-    background-color: #f1f1f1;
-    border-right: 1px solid;
-    border-right-color: $grey-color-light-light;
-
-    @include media-query($on-phone) {
-        position: static;
-        width: 100%;
-        height: auto;
-        margin: 0;
-        padding: 0;
-        padding-top: $spacing-unit;
-        text-align: center;
-
-        border: 0;
-        border-bottom: 1px solid;
-        border-bottom-color: $grey-color-light-light;
-    }
-
-    .navigation {
-        margin-top: $spacing-unit/2;
-    }
-
-    .navigation li {
-        margin-bottom: 5px;
-
-        @include media-query($on-phone) {
-            display: inline-block;
-            margin: 0;
-            padding-left: $spacing-unit / 2;
-            padding-right: $spacing-unit / 2;
-        }
-    }
+.left-container { 
+    top: 0; left: 0; position: fixed; width: $left-container-width; height: 100%; padding: ($spacing-unit) ($spacing-unit) 0 ($spacing-unit);
+    text-align: right; background-color: #f1f1f1; border-right: 1px solid $grey-color-light-light;
 }
-
-.navigation ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.navigation { margin-top: $spacing-unit/2; 
+    li { margin-bottom: 5px; }
+    ul { list-style: none; padding: 0; margin: 0; }
 }
-
-.network-container {
-    margin-top: $spacing-unit;
-
-    @include media-query($on-phone) {
-        margin-top: $spacing-unit / 2;
-    }
-}
-
-.network {
-    padding: 0;
-    margin-left: 10px;
-    margin-right: 0px;
-
-    > svg {
-        display: inline-block;
-        vertical-align: middle;
-        text-align: right;
-
-        path {
-            fill: $grey-color-light;
-        }
+.network-container { margin-top: $spacing-unit; }
+.network { padding: 0; margin: 0 0 0 10px;
+    svg { display: inline-block; vertical-align: middle; text-align: right;
+        path { fill: $grey-color-light; }
 
         &:hover {
-            path {
-                fill: $grey-color-dark;
-            }
+            path { fill: $grey-color-dark; }
         }
     }
-
-    @include media-query($on-phone) {
-        margin-left: $spacing-unit / 2;
-        margin-right: $spacing-unit / 2;
-    }
 }
 
-.rss-subscribe {
-    @include media-query($on-phone) {
-        visibility: hidden;
-        height: 0;
+@include media-query($on-phone) {
+    .left-container { position: static; width: 100%; height: auto; margin: 0; padding: $spacing-unit 0 0 0;
+        text-align: center; border: 0; border-bottom: 1px solid $grey-color-light-light;
     }
+    .navigation {
+        li { display: inline-block; margin: 0; padding: 0 ($spacing-unit/2) 0 ($spacing-unit/2); }
+    }
+    .network-container { margin-top: $spacing-unit / 2; }
+    .network { margin: 0 ($spacing-unit/2) 0 ($spacing-unit/2); }
+    .rss-subscribe { visibility: hidden; height: 0; }
 }
 
-/**
- * Right Container
- */
+/*------------------------------
+    RIGHT CONTAINER
+ -----------------------------*/
 .right-container {
     padding-top: $spacing-unit;
     margin-left: $left-container-width + $spacing-unit * 2;
@@ -199,6 +128,7 @@ $post-content-padding: $spacing-unit*6;
         h1, h2, h3, h4, h5, h6 { padding-left: 0; }
         p { padding-left: 0; }
     }
+    table { padding: 0 ($post-content-padding) 0 ($post-content-padding); }
 }
 .post-header { margin: ($spacing-unit) 0 ($spacing-unit) 0; }
 .post-subtitle { padding: 0 ($post-content-padding) 0 ($post-content-padding); }
@@ -221,22 +151,10 @@ $post-content-padding: $spacing-unit*6;
 /*------------------------------
     OTHER
  -----------------------------*/
-.center {
-    display: block;
-    margin:0 auto;
-}
+.center { display: block; margin:0 auto; }
+.pagination { max-width: 1000px; text-align: right; margin: $spacing-unit 0 0 $spacing-unit*2; }
+#disqus_thread { max-width: 800px; margin: $spacing-unit*2 auto; padding: ($spacing-unit*2) ($spacing-unit) 0 ($spacing-unit); border-top: 1px solid #DDDDDD; }
 
-.pagination {
-    text-align: right;
-    margin-top: $spacing-unit;
-    padding-right: $spacing-unit;
-}
-
-#disqus_thread {
-    max-width: 800px;
-    margin: $spacing-unit*2 auto;
-    padding-left: $spacing-unit;
-    padding-right: $spacing-unit;
-    padding-top: $spacing-unit*2;
-    border-top: 1px solid #DDDDDD;
+@include media-query($on-phone) {
+    .pagination { text-align: center; margin: $spacing-unit 0 0 0; }
 }
