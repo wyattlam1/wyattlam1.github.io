@@ -32,4 +32,4 @@ $image-spacing-unit: 15px;
 .width50 { width: 50%; @include media-query($on-phone) { width: 100%; } }
 .width60 { width: 60%; @include media-query($on-phone) { width: 100%; } }
 .width80 { width: 80%; @include media-query($on-phone) { width: 100%; } }
-.width100 { display: block; width: 100%; height: auto; }
+.width100 { display: block; width: 100%; height: auto; padding-top: 400px; @include media-query($on-phone) { padding-top: 200px; } }
