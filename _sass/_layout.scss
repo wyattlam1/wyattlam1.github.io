@@ -55,7 +55,7 @@ $left-container-width: 230px;
  -----------------------------*/
 $post-content-padding: $spacing-unit*6;
 .post                                   { display: block; margin: 0 auto; }
-.post h1, h2, h3, h4, h5, h6            { padding: 0 ($post-content-padding) 0 ($post-content-padding); }
+.post                                   { h1, h2, h3, h4, h5, h6 { padding: 0 ($post-content-padding) 0 ($post-content-padding); } }
 .post p                                 { padding: 0 ($post-content-padding) 0 ($post-content-padding); margin-bottom: $spacing-unit; }
 .post blockquote                        { margin: 0 0 ($spacing-unit) ($post-content-padding); }
 .post blockquote                        { h1, h2, h3, h4, h5, h6 { padding-left: 0; } }
