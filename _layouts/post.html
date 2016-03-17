@@ -29,9 +29,18 @@ layout: default
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
+    /* SCROLLING POSITION */
+    $(window).scroll(function(e) {
+      var scrollTop = $(window).scrollTop();
+      var docHeight = $(document).height();
+      var winHeight = $(window).height();
+      var scrollPercent = (scrollTop) / (docHeight - winHeight);
+      var scrollPercentRounded = Math.round(scrollPercent*100);
+      $(".left-container-scroll-border").css("height", scrollPercentRounded + "%")
+    })
+
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = 'wyattlam';
-    
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

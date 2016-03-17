@@ -11,6 +11,7 @@ $left-container-width: 230px;
 .left-container         { top: 0; left: 0; position: fixed; width: $left-container-width; height: 100%; 
                           padding: ($spacing-unit) ($spacing-unit) 0 ($spacing-unit); text-align: right; 
                           background-color: #f1f1f1; border-right: 1px solid $grey-color-light-light; }
+.left-container-scroll-border { top:0; right:-1px; position:absolute; width:1px; height: 0%; border-right: 1px solid $grey-color; }
 .navigation             { margin-top: $spacing-unit/2; }
 .navigation ul          { list-style: none; padding: 0; margin: 0; }
 .navigation li          { margin-bottom: 5px; }
