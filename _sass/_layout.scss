@@ -35,14 +35,14 @@ $left-container-width: 230px;
  $photo-list-story-height: 200px;
 .right-container                           { padding-top: $spacing-unit; margin-left: $left-container-width + $spacing-unit * 2; }
 .post-list                                 { max-width: 1000px; list-style: none; margin: 0 ($spacing-unit) 0 ($spacing-unit*2); }
-.post-list li                              { padding: $spacing-unit; margin-bottom: $spacing-unit / 4; }
-.post-list li:hover                        { background-color: lighten($grey-color, 46%); }
+.post-list li                              { padding: $spacing-unit; margin-bottom: $spacing-unit / 4; border-radius: 3px;  }
+.post-list li:hover                        { background-color: lighten($grey-color, 46%); color: darken($link-color, 25%); }
 .post-list-photo-story                     { background-size: cover; background-position: center center; 
-                                             opacity: .8; height: $photo-list-story-height; }
+                                             opacity: .8; height: $photo-list-story-height; border-radius: 3px; }
 .post-list-photo-story .post-list-title    { color: #FFFFFF; position: relative; bottom: $photo-list-story-height; }
 .post-list-photo-story .post-list-subtitle { color: #CCCCCC; position: relative; bottom: $photo-list-story-height; }
 .post-list-photo-story-overlay             { height: $photo-list-story-height + $spacing-unit*2; background-color: #000000; 
-                                             opacity: 0.6; margin: -$spacing-unit; }
+                                             opacity: 0.6; margin: -$spacing-unit; border-radius: 3px; }
 .post-list-photo-story-overlay:hover       { opacity: 0.2; }
 
 @include media-query($on-phone) {
