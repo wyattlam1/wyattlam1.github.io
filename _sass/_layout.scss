@@ -4,13 +4,14 @@
 .container      { padding: 0; margin: 0; }
 .body_container { padding: 0; margin: 0; }
 
+$border-color: #e1e1e1;
 /*------------------------------
     LEFT CONTAINER
  -----------------------------*/
 $left-container-width: 230px;
 .left-container         { top: 0; left: 0; position: fixed; width: $left-container-width; height: 100%; 
                           padding: ($spacing-unit) ($spacing-unit) 0 ($spacing-unit); text-align: right; 
-                          background-color: #f1f1f1; border-right: 1px solid $grey-color-light-light; }
+                          background-color: #ffffff; border-right: 1px solid $border-color; }
 .left-container-scroll-border { top:0; right:-1px; position:absolute; width:1px; height: 0%; border-right: 1px solid $grey-color; }
 .navigation             { margin-top: $spacing-unit/2; }
 .navigation ul          { list-style: none; padding: 0; margin: 0; }
@@ -33,22 +34,25 @@ $left-container-width: 230px;
 /*------------------------------
     RIGHT CONTAINER
  -----------------------------*/
- $photo-list-story-height: 200px;
-.right-container                           { padding-top: $spacing-unit; margin-left: $left-container-width + $spacing-unit * 2; }
-.post-list                                 { max-width: 1000px; list-style: none; margin: 0 ($spacing-unit) 0 ($spacing-unit*2); }
-.post-list li                              { padding: $spacing-unit; margin-bottom: $spacing-unit / 4; border-radius: 3px;  }
-.post-list li:hover                        { background-color: lighten($grey-color, 46%); color: darken($link-color, 25%); }
-.post-list-photo-story                     { background-size: cover; background-position: center center; 
-                                             opacity: .8; height: $photo-list-story-height; border-radius: 3px; }
-.post-list-photo-story .post-list-title    { color: #FFFFFF; position: relative; bottom: $photo-list-story-height; }
-.post-list-photo-story .post-list-subtitle { color: #CCCCCC; position: relative; bottom: $photo-list-story-height; }
-.post-list-photo-story-overlay             { height: $photo-list-story-height + $spacing-unit*2; background-color: #000000; 
-                                             opacity: 0.6; margin: -$spacing-unit; border-radius: 3px; }
-.post-list-photo-story-overlay:hover       { opacity: 0.2; }
+ $photo-list-story-height: 250px;
+.right-container                           { padding-top: $spacing-unit; margin-left: $left-container-width + $spacing-unit * 2; 
+                                             background-color: rgb(250, 250, 250) }
+.post-list                                 { max-width: 80%; list-style: none; margin: 0 ($spacing-unit) 0 ($spacing-unit*2); }
+.post-list li                              { padding: $spacing-unit; margin-bottom: $spacing-unit/2; overflow:hidden;
+                                             border: 0px solid $border-color; border-radius: 3px; background-color:#ffffff; 
+                                             box-shadow: 0 0px 2px 0 darken($border-color, 5%); }
+.post-list-photo-story                     { max-width:100%; height:$photo-list-story-height; background-size:cover; background-repeat: no-repeat; }
+.post-list-photo-story-overlay             { height: $photo-list-story-height + $spacing-unit*2; margin: -$spacing-unit; 
+                                             background-color: #000000; opacity:0.2 }
+.post-list-photo-story-overlay:hover       { opacity:0 }
+.post-list-photo-story .post-list-title    { color:#ffffff; position: relative; bottom: $photo-list-story-height; }
+.post-list-photo-story .post-list-subtitle { color:#eeeeee; font-size: 16px; position: relative; bottom: $photo-list-story-height; }
 
 @include media-query($on-phone) {
     .right-container { padding: 0; margin: 0; }
     .post-list       { margin: 0; }
+    .post-list li    { border-radius: 0; }
+    .post-list-photo-story { background-position: 0 !important; background-size: cover cover; }
 }
 
 /*------------------------------
@@ -81,7 +85,7 @@ $post-content-padding: $spacing-unit*6;
     OTHER
  -----------------------------*/
 .center        { display: block; margin:0 auto; }
-.pagination    { max-width: 1000px; text-align: right; margin: $spacing-unit 0 0 $spacing-unit*2; }
+.pagination    { max-width: 80%; text-align: right; margin: $spacing-unit 0 0 $spacing-unit*2; }
 #disqus_thread { max-width: 800px; margin: $spacing-unit*2 auto; padding: ($spacing-unit*2) ($spacing-unit) 0 ($spacing-unit); 
                  border-top: 1px solid #DDDDDD; }
 
