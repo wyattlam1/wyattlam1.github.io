@@ -35,8 +35,7 @@ $left-container-width: 230px;
     RIGHT CONTAINER
  -----------------------------*/
  $photo-list-story-height: 250px;
-.right-container                           { margin-left: $left-container-width + $spacing-unit * 2; 
-                                             background-color: rgb(250, 250, 250) }
+.right-container                           { margin-left: $left-container-width + $spacing-unit * 2; background-color: rgb(250, 250, 250) }
 .post                                      { padding-top: $spacing-unit; background-color: #ffffff; }
 .post-list                                 { padding-top: $spacing-unit; max-width: 80%; list-style: none; margin: 0 ($spacing-unit) 0 ($spacing-unit*2); }
 .post-list li                              { padding: $spacing-unit; margin-bottom: $spacing-unit/2; overflow:hidden;
@@ -50,8 +49,8 @@ $left-container-width: 230px;
 .post-list-photo-story .post-list-subtitle { color:#eeeeee; font-size: 16px; position: relative; bottom: $photo-list-story-height; }
 
 @include media-query($on-phone) {
-    .right-container { padding: 0; margin: 0; }
-    .post-list       { margin: 0; }
+    .right-container { margin: 0; }
+    .post-list       { max-width: 100%; margin: 0; }
     .post-list li    { border-radius: 0; }
     .post-list-photo-story { background-position: 0 !important; background-size: cover cover; }
 }
@@ -91,5 +90,5 @@ $post-content-padding: $spacing-unit*6;
                  border-top: 1px solid #DDDDDD; }
 
 @include media-query($on-phone) {
-    .pagination { text-align: center; margin: $spacing-unit 0 0 0; }
+    .pagination { max-width: 100%; text-align: center; margin: $spacing-unit 0 0 0; }
 }
