@@ -10,24 +10,24 @@ $border-color: #e1e1e1;
  -----------------------------*/
 $left-container-width: 230px;
 .left-container         { top: 0; left: 0; position: fixed; width: $left-container-width; height: 100%; 
-                          padding: ($spacing-unit) ($spacing-unit) 0 ($spacing-unit); text-align: right; 
+                          padding: ($spacing) ($spacing) 0 ($spacing); text-align: right; 
                           background-color: #ffffff; border-right: 1px solid $border-color; }
 .left-container-scroll-border { top:0; right:-1px; position:absolute; width:1px; height: 0%; border-right: 1px solid $grey-color; }
-.navigation             { margin-top: $spacing-unit/2; }
+.navigation             { margin-top: $spacing/2; }
 .navigation ul          { list-style: none; padding: 0; margin: 0; }
 .navigation li          { margin-bottom: 5px; }
-.network-container      { margin-top: $spacing-unit; }
+.network-container      { margin-top: $spacing; }
 .network                { padding: 0; margin: 0 0 0 10px; }
 .network svg            { display: inline-block; vertical-align: middle; text-align: right; }
 .network svg path       { fill: $grey-color-light; }
 .network svg:hover path { fill: $grey-color-dark; }
 
 @include media-query($on-phone) {
-    .left-container    { position: static; width: 100%; height: auto; margin: 0; padding: $spacing-unit 0 0 0;
+    .left-container    { position: static; width: 100%; height: auto; margin: 0; padding: $spacing 0 0 0;
                          text-align: center; border: 0; border-bottom: 1px solid $grey-color-light-light; }
-    .navigation li     { display: inline-block; margin: 0; padding: 0 ($spacing-unit/2) 0 ($spacing-unit/2); }
-    .network-container { margin-top: $spacing-unit / 2; }
-    .network           { margin: 0 ($spacing-unit/2) 0 ($spacing-unit/2); }
+    .navigation li     { display: inline-block; margin: 0; padding: 0 ($spacing/2) 0 ($spacing/2); }
+    .network-container { margin-top: $spacing / 2; }
+    .network           { margin: 0 ($spacing/2) 0 ($spacing/2); }
     .rss-subscribe     { visibility: hidden; height: 0; }
 }
 
@@ -35,19 +35,23 @@ $left-container-width: 230px;
     RIGHT CONTAINER
  -----------------------------*/
  $photo-list-story-height: 250px;
-.right-container                           { margin-left: $left-container-width + $spacing-unit * 2; background-color: rgb(250, 250, 250) }
-.post                                      { padding-top: $spacing-unit; background-color: #ffffff; }
-.post-list                                 { padding-top: $spacing-unit; max-width: 80%; list-style: none; margin: 0 ($spacing-unit) 0 ($spacing-unit*2); }
-.post-list li                              { padding: $spacing-unit; margin-bottom: $spacing-unit/2; overflow:hidden;
+.right-container                           { margin-left: $left-container-width + $spacing * 2; background-color: rgb(250, 250, 250) }
+.post                                      { padding-top: $spacing; background-color: #ffffff; }
+.post-list                                 { padding-top: $spacing; max-width: 80%; list-style: none; margin: 0 ($spacing) 0 ($spacing*2); }
+.post-list li                              { padding: $spacing; margin-bottom: $spacing/2; overflow:hidden;
                                              border: 0px solid $border-color; border-radius: 3px; background-color:#ffffff; 
                                              box-shadow: 0 0px 2px 0 darken($border-color, 5%); }
 .post-list-photo-story                     { max-width:100%; height:$photo-list-story-height; background-size:cover; background-repeat: no-repeat; }
-.post-list-photo-story-overlay             { height: $photo-list-story-height + $spacing-unit*2; margin: -$spacing-unit; 
+.post-list-photo-story-overlay             { height: $photo-list-story-height + $spacing*2; margin: -$spacing; 
                                              background-color: #000000; opacity:0.2 }
 .post-list-photo-story-overlay:hover       { opacity:0 }
 .post-list-photo-story .post-list-title    { color:#ffffff; position: relative; bottom: $photo-list-story-height; }
 .post-list-photo-story .post-list-subtitle { color:#eeeeee; font-size: 16px; position: relative; bottom: $photo-list-story-height; }
 
+@include media-query($on-tablet) {
+    .post-list       { max-width: 100%; margin: 0 ($spacing) 0 ($spacing); }
+    .post-list-photo-story { background-position: 0 !important; background-size: cover cover; }
+}
 @include media-query($on-phone) {
     .right-container { margin: 0; }
     .post-list       { max-width: 100%; margin: 0; }
@@ -58,23 +62,31 @@ $left-container-width: 230px;
 /*------------------------------
     POSTS
  -----------------------------*/
-$post-content-padding: $spacing-unit*6;
+$post-content-padding: $spacing*6;
 .post                                   { display: block; margin: 0 auto; }
 .post                                   { h1, h2, h3, h4, h5, h6 { padding: 0 ($post-content-padding) 0 ($post-content-padding); } }
-.post p                                 { padding: 0 ($post-content-padding) 0 ($post-content-padding); margin-bottom: $spacing-unit; }
-.post blockquote                        { margin: 0 0 ($spacing-unit) ($post-content-padding); }
+.post p                                 { padding: 0 ($post-content-padding) 0 ($post-content-padding); margin-bottom: $spacing; }
+.post blockquote                        { margin: 0 0 ($spacing) ($post-content-padding); }
 .post blockquote                        { h1, h2, h3, h4, h5, h6 { padding-left: 0; } }
 .post blockquote p                      { padding-left: 0; }
 .post table                             { padding: 0 ($post-content-padding) 0 ($post-content-padding); }
-.post-header                            { margin: ($spacing-unit) 0 ($spacing-unit) 0; }
+.post-header                            { margin: ($spacing) 0 ($spacing) 0; }
 .post-subtitle                          { padding: 0 ($post-content-padding) 0 ($post-content-padding); }
-.post-content                           { margin-bottom: $spacing-unit; }
+.post-content                           { margin-bottom: $spacing; }
 .post-photo-story-day-overlay           { height: 100%; background-color: #000000; opacity: 0.2; }
 .post-photo-story-day-overlay:hover     { opacity: 0.0; }
 .post-photo-story-day-title             { position: absolute; bottom: 20px; right: 20px; }
 
+@include media-query($on-tablet) {
+    $post-content-tablet-padding: $spacing*3;
+    .post              { h1, h2, h3, h4, h5, h6 { padding: 0 ($post-content-tablet-padding) 0 ($post-content-tablet-padding); } }
+    .post p            { padding: 0 ($post-content-tablet-padding) 0 ($post-content-tablet-padding); }
+    .post blockquote   { margin: 0 0 ($spacing) ($post-content-tablet-padding); }
+    .post table        { padding: 0 ($post-content-tablet-padding) 0 ($post-content-tablet-padding); }
+    .post-subtitle     { padding: 0 ($post-content-tablet-padding) 0 ($post-content-tablet-padding); }
+}
 @include media-query($on-phone) {
-    .post                        { padding:0 ($spacing-unit) 0 ($spacing-unit); }
+    .post                        { padding:0 ($spacing) 0 ($spacing); }
     .post                        { h1, h2, h3, h4, h5, h6 { padding: 0; } }
     .post p                      { padding: 0; }
     .post blockquote             { margin-left: 0 };
@@ -85,10 +97,10 @@ $post-content-padding: $spacing-unit*6;
     OTHER
  -----------------------------*/
 .center        { display: block; margin:0 auto; }
-.pagination    { max-width: 80%; text-align: right; margin: $spacing-unit 0 0 $spacing-unit*2; }
-#disqus_thread { max-width: 800px; margin: $spacing-unit*2 auto; padding: ($spacing-unit*2) ($spacing-unit) 0 ($spacing-unit); 
+.pagination    { max-width: 80%; text-align: right; margin: $spacing 0 0 $spacing*2; }
+#disqus_thread { max-width: 800px; margin: $spacing*2 auto; padding: ($spacing*2) ($spacing) 0 ($spacing); 
                  border-top: 1px solid #DDDDDD; }
 
 @include media-query($on-phone) {
-    .pagination { max-width: 100%; text-align: center; margin: $spacing-unit 0 0 0; }
+    .pagination { max-width: 100%; text-align: center; margin: $spacing 0 0 0; }
 }

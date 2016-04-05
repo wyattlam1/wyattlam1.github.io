@@ -1,96 +1,31 @@
 $about-logo-width: 100px;
 $about-logo-width-smaller: 50px;
-.about {
-    min-width: 800px;
-    overflow: hidden;
-    padding-left: $spacing-unit * 2;
-    padding-right: $spacing-unit * 2;
+.about                      { min-width: 800px; overflow: hidden; padding: ($spacing) ($spacing*2) 0 ($spacing*2); }
+.about-content-container    { float: left; width: 60%; margin-right: $spacing * 3; }
+.about-section-container    { margin-bottom: $spacing * 2; }
+.about-profile-img          { width: 100%; }
 
-    @include media-query($on-phone) {
-        min-width: 0;
-        padding-top: $spacing-unit;
-        padding-left: $spacing-unit;
-        padding-right: $spacing-unit;
-    }
+.bio-container ul {  list-style: none; padding: 0; margin: 0; }
+.bio-container li { margin-bottom: 20px; }
+
+.todo-container h2 { padding: 0; }
+.todo-container ul { list-style: none; padding: 0; margin: 0; }
+.todo-container li { margin-bottom: 20px; }
     
-    .about-content-container {
-        float: left;
-        width: 60%;
-        margin-right: $spacing-unit * 3;
+.job-container { margin-bottom: $spacing * 2; }
+.job-container .logo { float: left; width: $about-logo-width; }
+.job-container .description-container { margin-left: $about-logo-width + $spacing; }
 
-        @include media-query($on-phone) {
-            float: none;
-            width: 100%;
-            margin: 0;
-        }
-    }
+@include media-query($on-tablet) {
+    .about                      { min-width: 0; padding: ($spacing) ($spacing) 0 ($spacing*2); }
+    .about-content-container    { float: none; width: 100%; margin: 0; }
+    .about-section-container    { margin-bottom: $spacing; max-width: 550px; }
 
-    .todo-container {
-        h2 {
-            padding: 0;
-        }
-        
-        & ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        & li {
-            margin-bottom: 20px;
-        }
-    }
-
-    .about-section-container {
-        margin-bottom: $spacing-unit * 2;
-
-        @include media-query($on-phone) {
-            margin-bottom: $spacing-unit;
-        }
-    }
-
-    .bio-container {
-        & ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        & li {
-            margin-bottom: 20px;
-        }
-    }
-
-    .about-profile-img {
-        width: 100%;
-    }
-
-    .job-container {
-        margin-bottom: $spacing-unit * 2;
-
-        @include media-query($on-phone) {
-            margin-bottom: $spacing-unit;
-        }
-    }
-
-    .job-container .logo {
-        float: left;
-        width: $about-logo-width;
-
-        @include media-query($on-phone) {
-            width: $about-logo-width-smaller;
-        }
-    }
-
-    .job-container .description-container {
-        margin-left: $about-logo-width + $spacing-unit;
-
-        @include media-query($on-phone) {
-            margin-left: $about-logo-width-smaller + $spacing-unit;
-
-            & h1 {
-                margin-left: $about-logo-width;
-            }
-        }
-    }
+    .job-container                              { margin-bottom: $spacing; }
+    .job-container .logo                        { width: $about-logo-width-smaller; }
+    .job-container .description-container       { margin-left: $about-logo-width-smaller + $spacing; }
+    .job-container .description-container h1    { margin-left: $about-logo-width; }
+}
+@include media-query($on-phone) {
+    .about { min-width: 0; padding: ($spacing) ($spacing) 0 ($spacing); }
 }

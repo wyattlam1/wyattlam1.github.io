@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Globals
-$spacing-unit:     30px;
+$spacing: 30px;
 
 // Fonts
 $base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -30,14 +30,14 @@ $grey-color-dark-dark:  darken($grey-color, 35%);
 $content-width:    80%;
 
 $on-phone:         800px;
-$on-tablet:        800px;
+$on-tablet:        1280px;
 $on-laptop:        800px;
 
 // Using media queries with like this:
 // @include media-query($on-phone) {
 //     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
+//         padding-right: $spacing / 2;
+//         padding-left: $spacing / 2;
 //     }
 // }
 @mixin media-query($device) {
