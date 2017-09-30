@@ -23,7 +23,7 @@ cover-offset: 160px
 
 <div class="img-section">
 
-    <div class="img-container width33" style="position:relative; height: 150px; background-image: url(https://c2.staticflickr.com/2/1489/24921660135_b9808b2b2a_d.jpg)">
+    <div class="img-container width33" style="position:relative; height: 150px; background-image: url(https://c2.staticflickr.com/2/1489/24921660135_7d27032427_d.jpg)">
         <a href="{{ "/cambodia/2" | prepend: site.baseurl }}">
             <div class="post-photo-story-day-overlay"></div>
             <span class="post-photo-story-day-title">Day 2</span>
@@ -32,7 +32,7 @@ cover-offset: 160px
 
     <div class="img-container-vertical-spacer"></div>
 
-    <div class="img-container width33" style="position:relative; height: 150px; background-image: url(https://c2.staticflickr.com/2/1697/25268250911_4d83b377b7_d.jpg)">
+    <div class="img-container width33" style="position:relative; height: 150px; background-image: url(https://c2.staticflickr.com/2/1697/25268250911_f94f19fa54_d.jpg)">
         <a href="{{ "/cambodia/3" | prepend: site.baseurl }}">
             <div class="post-photo-story-day-overlay"></div>
             <span class="post-photo-story-day-title">Day 3</span>
