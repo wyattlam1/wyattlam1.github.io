@@ -1,9 +1,10 @@
 <div>
-    <div class="img-section-100">
+    <div class="img-section">
         <div id="{{ include.photo }}" class="img-container width100">
             <a data-lightbox="site" data-title="{{ include.caption }}"></a>
         </div>
     </div>
+    
     {% if include.caption and include.caption != "" %}
         <span class="img-caption">{{ include.caption }}</span>
     {% else %}

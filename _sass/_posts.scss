@@ -1,0 +1,33 @@
+/*------------------------------
+  INDIVIDUAL POSTS
+ -----------------------------*/
+
+.post { 
+    display: block; 
+    margin: ($spacing * 2) auto; 
+    padding: 0 ($post-content-padding);
+
+    @include media-query($on-tablet) { 
+        padding: 0 ($post-content-padding/6);
+    }
+}
+
+.post-content { 
+    margin: ($spacing) 0 ($spacing) 0; 
+}
+
+.post-photo-story-day-overlay { 
+    height: 100%; 
+    background-color: #000000; 
+    opacity: 0.2; 
+}
+
+.post-photo-story-day-overlay:hover { 
+    opacity: 0.0; 
+}
+
+.post-photo-story-day-title { 
+    position: absolute; 
+    bottom: 20px; 
+    right: 20px; 
+}

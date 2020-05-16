@@ -3,35 +3,9 @@
 ---
 @charset "utf-8";
 
-// Globals
-$spacing: 30px;
-
-// Fonts
-$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$post-font-family: 'Georgia', sans-serif;
-
-// Colors
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #345f98;
-$link-color:       #5590dd;
-
-$grey-color:       #828282;
-$grey-color-light-light: lighten($grey-color, 30%);
-$grey-color-light: lighten($grey-color, 20%);
-$grey-color-dark:  darken($grey-color, 25%);
-$grey-color-dark-dark:  darken($grey-color, 35%);
-
-// Width of the content area
-$content-width:    80%;
-
-$on-phone:         800px;
-$on-tablet:        1280px;
-$on-laptop:        800px;
+// http://stephen.io/mediaqueries/
+$on-phone:         812px;
+$on-tablet:        1024px;
 
 // Using media queries with like this:
 // @include media-query($on-phone) {
@@ -46,11 +20,40 @@ $on-laptop:        800px;
     }
 }
 
+// Globals
+$spacing: 30px;
+$post-content-padding: $spacing * 6;
+
+// Fonts
+$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$post-font-family: 'Georgia', sans-serif;
+
+// Colors
+$text-color:       #111111;
+$background-color: #fdfdfd;
+$brand-color:      #345f98;
+$link-color:       #5590dd;
+
+$grey-color:       #828282;
+$grey-color-light-light: lighten($grey-color, 30%);
+$grey-color-light: lighten($grey-color, 20%);
+$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark-dark:  darken($grey-color, 35%);
+
+// Width of the content area
+$content-width:    85%;
+
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "base",
     "layout",
     "page-about",
-    "photo-story"
+    "photo-story",
+    "posts"
 ;

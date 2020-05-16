@@ -108,40 +108,6 @@ $left-container-width: 230px;
 
 
 /*------------------------------
-    POSTS
- -----------------------------*/
-$post-content-padding: $spacing*6;
-.post                                   { display: block; margin: 0 auto; }
-.post                                   { h1, h2, h3, h4, h5, h6 { padding: 0 ($post-content-padding) 0 ($post-content-padding); } }
-.post p                                 { padding: 0 ($post-content-padding) 0 ($post-content-padding); margin-bottom: $spacing; }
-.post blockquote                        { margin: 0 0 ($spacing) ($post-content-padding); }
-.post blockquote                        { h1, h2, h3, h4, h5, h6 { padding-left: 0; } }
-.post blockquote p                      { padding-left: 0; }
-.post table                             { padding: 0 ($post-content-padding) 0 ($post-content-padding); }
-.post-header                            { margin: ($spacing) 0 ($spacing) 0; }
-.post-subtitle                          { padding: 0 ($post-content-padding) 0 ($post-content-padding); }
-.post-content                           { margin-bottom: $spacing; }
-.post-photo-story-day-overlay           { height: 100%; background-color: #000000; opacity: 0.2; }
-.post-photo-story-day-overlay:hover     { opacity: 0.0; }
-.post-photo-story-day-title             { position: absolute; bottom: 20px; right: 20px; }
-
-@include media-query($on-tablet) {
-    $post-content-tablet-padding: $spacing*3;
-    .post              { h1, h2, h3, h4, h5, h6 { padding: 0 ($post-content-tablet-padding) 0 ($post-content-tablet-padding); } }
-    .post p            { padding: 0 ($post-content-tablet-padding) 0 ($post-content-tablet-padding); }
-    .post blockquote   { margin: 0 0 ($spacing) ($post-content-tablet-padding); }
-    .post table        { padding: 0 ($post-content-tablet-padding) 0 ($post-content-tablet-padding); }
-    .post-subtitle     { padding: 0 ($post-content-tablet-padding) 0 ($post-content-tablet-padding); }
-}
-@include media-query($on-phone) {
-    .post                        { padding:0 ($spacing) 0 ($spacing); }
-    .post                        { h1, h2, h3, h4, h5, h6 { padding: 0; } }
-    .post p                      { padding: 0; }
-    .post blockquote             { margin-left: 0 };
-    .post-subtitle               { padding:0; }
-}
-
-/*------------------------------
     OTHER
  -----------------------------*/
 .center        { display: block; margin:0 auto; }
