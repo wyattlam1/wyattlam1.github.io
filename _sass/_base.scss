@@ -21,19 +21,64 @@ ul, ol, dl, figure,
 /*------------------------------
     POSTS
  -----------------------------*/
-.post-title                 { color: $grey-color-dark-dark; font-size: 34px; font-weight: bold; letter-spacing: -1px; line-height: 1; }
-.post-subtitle              { color: $grey-color; font-size: 18px; font-weight: 300; line-height: 1; }
-.post-content               { font-family: $post-font-family; color: $grey-color-dark; font-size: 20px; line-height: 35px; font-weight: 300; }
-.post-content h1, h2, h3, h4, h5, h6 { font-family: $base-font-family; }
-.post-content h1            { font-size: 34px; }
-.post-content h2            { color: lighten($grey-color, 10%); font-size: 28px; }
-.post-content h3            { font-size: 20px; }
-.post-content h4            { font-size: 16px; }
-.post-meta                  { text-align: right; color: $grey-color; font-size: 20px; }
-.post-photo-story-day-title { color:#FFFFFF; font-size: 40px; font-weight: bold; }
-.post-list-title            { font-size: 24px; font-weight: 400; }
-.post-list-subtitle         { font-size: 14px; color: $grey-color; }
-.post-excerpt               { line-height: 30px; color: $grey-color-dark; }
+.post-title { 
+    color: $grey-color-dark-dark; 
+    font-size: 34px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+}
+.post-subtitle { 
+    color: $grey-color; 
+    font-size: 18px; 
+    font-weight: 300; 
+    line-height: 1; 
+}
+.post-content { 
+    font-family: $post-font-family; 
+    color: $grey-color-dark; 
+    font-size: 20px; 
+    line-height: 35px; 
+    font-weight: 300; 
+}
+.post-content h1, h2, h3, h4, h5, h6 {
+    font-family: $base-font-family;
+}
+.post-content h1 { 
+    font-size: 34px; 
+}
+.post-content h2 { 
+    color: lighten($grey-color, 10%); 
+    font-size: 28px; 
+}
+.post-content h3 { 
+    font-size: 20px; 
+}
+.post-content h4 { 
+    font-size: 16px; 
+}
+.post-meta { 
+    text-align: right; color: 
+    $grey-color; 
+    font-size: 20px; 
+}
+.post-photo-story-day-title { 
+    color:#FFFFFF; 
+    font-size: 40px; 
+    font-weight: bold; 
+}
+.post-list-title { 
+    font-size: 24px; 
+    font-weight: 400; 
+}
+.post-list-subtitle { 
+    font-size: 14px; 
+    color: $grey-color; 
+}
+.post-excerpt { 
+    line-height: 30px; 
+    color: $grey-color-dark; 
+}
 
 @include media-query($on-phone) {
     .post-title         { font-size: 28px; }
