@@ -27,6 +27,7 @@ paginate_path: "/posts/:num/"
 
 # Build settings
 markdown: kramdown
+plugins: [jekyll-paginate]
 
 sass:
   style: compressed
