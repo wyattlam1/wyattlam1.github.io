@@ -23,6 +23,8 @@ $on-tablet:        1024px;
 // Globals
 $spacing: 30px;
 $post-content-padding: $spacing * 6;
+$post-content-padding-tablet: $spacing;
+$post-content-padding-phone: $spacing;
 
 // Fonts
 $base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -46,8 +48,6 @@ $grey-color-dark-dark:  darken($grey-color, 35%);
 
 // Width of the content area
 $content-width:    85%;
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

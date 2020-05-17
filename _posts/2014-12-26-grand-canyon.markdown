@@ -24,17 +24,17 @@ I took a trip after the holiday rush to visit the Grand Canyon. This was the sec
 
 <div class="img-section-divider"></div>
 
-{% include photo-story-fullscreen.html photo="16194490106" %}
+{% include photo-story-100.html photo="16194490106" %}
 
-{% include photo-story-100.html photo="16034236169" %}
+{% include photo-story-100-with-padding.html photo="16034236169" %}
 
 {% include photo-story-2x1-50-50.html photo1="16032865578"  photo2="16194501376" %}
 
-{% include photo-story-100.html photo="16218469031" %}
+{% include photo-story-100-with-padding.html photo="16218469031" %}
 
-{% include photo-story-100.html photo="16011974438" caption="Enjoying the View" %}
+{% include photo-story-100-with-padding.html photo="16011974438" caption="Enjoying the View" %}
 
-{% include photo-story-100.html photo="16219588772" caption="Rim of Fire" %}
+{% include photo-story-100-with-padding.html photo="16219588772" caption="Rim of Fire" %}
 
 <div class="img-section-divider"></div>
 

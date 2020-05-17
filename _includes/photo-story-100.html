@@ -1,10 +1,9 @@
-<div>
-    <div class="img-section">
-        <div id="{{ include.photo }}" class="img-container width100">
-            <a data-lightbox="site" data-title="{{ include.caption }}"></a>
-        </div>
+<div class="img-section">
+	<!-- width100 has special references in flickrService.js -->
+    <div id="{{ include.photo }}" class="img-container width100">
+        <a data-lightbox="site" data-title="{{ include.caption }}"></a>
     </div>
-    
+
     {% if include.caption and include.caption != "" %}
         <span class="img-caption">{{ include.caption }}</span>
     {% else %}

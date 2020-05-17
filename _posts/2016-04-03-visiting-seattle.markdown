@@ -8,7 +8,7 @@ categories:     miscellaneous
 
 Since departing from the beautiful city of Seattle, I have received numerous questions regarding sights and activities when visiting Seattle. I would rack my brain each time to haphazardly concoct a lengthy list of all my favorite point of interests, activities, and eateries, only to forget about it the next time someone asked. Well, I’ve finally decided to jot down the list so I have one place to reference all my favorite places around Seattle.
 
-{% include photo-story-100.html photo="26193357875" caption="12th Ave Bridge" %}
+{% include photo-story-100-with-padding.html photo="26193357875" caption="12th Ave Bridge" %}
 
 <div class="img-section-divider"></div>
 

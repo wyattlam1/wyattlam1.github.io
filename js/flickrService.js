@@ -93,7 +93,7 @@ $(document).ready(function() {
             // div background images require at least width or height to be set.
             //   In this case, we have a width of 100% and a height of 'auto', which doesn't render.
             //   The solution is to force a padding of the width to height ratio.
-            if ($(imgContainer).hasClass('width100')) {
+            if (imgContainerHeight == 0) {  
                 $(imgContainer).css('cssText', "padding-top:" + (photo.height/photo.width * 100) + '% !important');
             }
 

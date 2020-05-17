@@ -10,111 +10,111 @@ cover-offset: 120px
 
 My family and I visited Hong Kong early January 2016.  Among all the cities I've visited, I've never seen one as dense as Hong Kong. The number of people bustling around the towering skyscrapers was truly astonishing.  We spent a total of 5 days exploring this beautiful city. 
 
-{% include photo-story-fullscreen.html photo="25163535813" caption="Victoria Peak" %}
+{% include photo-story-100.html photo="25163535813" caption="Victoria Peak" %}
 
-{% include photo-story-100.html photo="25814419435" %}
+{% include photo-story-100-with-padding.html photo="25814419435" %}
 {% include photo-story-2x1-50-50.html photo1="25814428805" photo2="25693471882" %}
-{% include photo-story-100.html photo="25790012045" %}
+{% include photo-story-100-with-padding.html photo="25790012045" %}
 
-{% include photo-story-100.html photo="25256970949" %}
+{% include photo-story-100-with-padding.html photo="25256970949" %}
 {% include photo-story-2x1-50-50-vertical.html photo1="24997782833" photo2="24993997834" %}
 {% include photo-story-2x1-50-50.html photo1="25624520735" photo2="25328896030" %}
-{% include photo-story-100.html photo="25531816721" %}
+{% include photo-story-100-with-padding.html photo="25531816721" %}
 
 <div class="img-section-divider"></div>
 
-{% include photo-story-100.html photo="24997826713" %}
-{% include photo-story-100.html photo="25328912760" %}
-{% include photo-story-100.html photo="25624564085" %}
-{% include photo-story-100.html photo="24997846433" %}
-{% include photo-story-100.html photo="24997852453" %}
+{% include photo-story-100-with-padding.html photo="24997826713" %}
+{% include photo-story-100-with-padding.html photo="25328912760" %}
+{% include photo-story-100-with-padding.html photo="25624564085" %}
+{% include photo-story-100-with-padding.html photo="24997846433" %}
+{% include photo-story-100-with-padding.html photo="24997852453" %}
 {% include photo-story-2x1-50-50.html photo1="25531897411" photo2="25505939192" caption="(International Finance Centre) (International Commerce Centre)" %}
-{% include photo-story-fullscreen.html photo="24994110114" caption="Hong Kong Skyline" %}
-{% include photo-story-100.html photo="25531970821" %}
-{% include photo-story-100.html photo="25329046750" %}
+{% include photo-story-100.html photo="24994110114" caption="Hong Kong Skyline" %}
+{% include photo-story-100-with-padding.html photo="25531970821" %}
+{% include photo-story-100-with-padding.html photo="25329046750" %}
 {% include photo-story-2x1-60-40.html photo1="25506054012" photo2="24998001043" %}
-{% include photo-story-100.html photo="24994219614" %}
-{% include photo-story-100.html photo="25532058501" %}
-{% include photo-story-100.html photo="24994232654" %}
+{% include photo-story-100-with-padding.html photo="24994219614" %}
+{% include photo-story-100-with-padding.html photo="25532058501" %}
+{% include photo-story-100-with-padding.html photo="24994232654" %}
 
 ### We went up to the International Finance Centre (IFC) to get a higher vantage point of the city.  Look at the density of those buildings.  Staring at them makes me a little dizzy.
 {: style="text-align: center" }
 
-{% include photo-story-100.html photo="25624758065" %}
-{% include photo-story-100.html photo="24994312724" %}
-{% include photo-story-100.html photo="25532096531" %}
+{% include photo-story-100-with-padding.html photo="25624758065" %}
+{% include photo-story-100-with-padding.html photo="24994312724" %}
+{% include photo-story-100-with-padding.html photo="25532096531" %}
 {% include photo-story-2x1-40-60.html photo1="25712328395" photo2="24994273214" %}
 {% include photo-story-2x1-60-40.html photo1="25598654106" photo2="24994290804" caption="Overlooking the Harbor" %}
-{% include photo-story-100.html photo="25598667106" %}
-{% include photo-story-100.html photo="25257265169" caption="Bank of China Tower <br> Fun fact: The Bank of China Tower was designed by I. M. Pei, who also designed the Louvre Pyramid in Paris." %}
+{% include photo-story-100-with-padding.html photo="25598667106" %}
+{% include photo-story-100-with-padding.html photo="25257265169" caption="Bank of China Tower <br> Fun fact: The Bank of China Tower was designed by I. M. Pei, who also designed the Louvre Pyramid in Paris." %}
 {% include photo-story-2x1-50-50.html photo1="25712323185" photo2="25712319135" %}
-{% include photo-story-100.html photo="25591327342" %}
-{% include photo-story-100.html photo="25686299086" %}
+{% include photo-story-100-with-padding.html photo="25591327342" %}
+{% include photo-story-100-with-padding.html photo="25686299086" %}
 
 <div class="img-section-divider"></div>
 
-{% include photo-story-100.html photo="25081941824" %}
-{% include photo-story-100.html photo="25591343262" %}
-{% include photo-story-100.html photo="25712376715" caption="Pottinger Street" %}
-{% include photo-story-100.html photo="25686337456" %}
-{% include photo-story-100.html photo="25686342246" %}
-{% include photo-story-100.html photo="25617339271" %}
-{% include photo-story-100.html photo="25411664840" %}
+{% include photo-story-100-with-padding.html photo="25081941824" %}
+{% include photo-story-100-with-padding.html photo="25591343262" %}
+{% include photo-story-100-with-padding.html photo="25712376715" caption="Pottinger Street" %}
+{% include photo-story-100-with-padding.html photo="25686337456" %}
+{% include photo-story-100-with-padding.html photo="25686342246" %}
+{% include photo-story-100-with-padding.html photo="25617339271" %}
+{% include photo-story-100-with-padding.html photo="25411664840" %}
 {% include photo-story-2x1-50-50-vertical.html photo1="25085803863" photo2="25591391422" %}
-{% include photo-story-100.html photo="25617366101" %}
-{% include photo-story-100.html photo="25686381976" %}
-{% include photo-story-100.html photo="25411694370" %}
-{% include photo-story-100.html photo="25712441435" %}
-{% include photo-story-100.html photo="25082022944" %}
-{% include photo-story-100.html photo="25617396451" %}
-{% include photo-story-100.html photo="25712459975" %}
-{% include photo-story-100.html photo="25591436622" %}
+{% include photo-story-100-with-padding.html photo="25617366101" %}
+{% include photo-story-100-with-padding.html photo="25686381976" %}
+{% include photo-story-100-with-padding.html photo="25411694370" %}
+{% include photo-story-100-with-padding.html photo="25712441435" %}
+{% include photo-story-100-with-padding.html photo="25082022944" %}
+{% include photo-story-100-with-padding.html photo="25617396451" %}
+{% include photo-story-100-with-padding.html photo="25712459975" %}
+{% include photo-story-100-with-padding.html photo="25591436622" %}
 {% include photo-story-2x1-60-40.html photo1="25617410451" photo2="25686422076" %}
-{% include photo-story-100.html photo="25085865263" %}
-{% include photo-story-100.html photo="25617422501" %}
+{% include photo-story-100-with-padding.html photo="25085865263" %}
+{% include photo-story-100-with-padding.html photo="25617422501" %}
 
 <div class="img-section-divider"></div>
 
-{% include photo-story-100.html photo="25411770320" caption="Hong Kong Convention and Exhibition Centre" %}
+{% include photo-story-100-with-padding.html photo="25411770320" caption="Hong Kong Convention and Exhibition Centre" %}
 {% include photo-story-2x1-50-50.html photo1="25082080904" photo2="25617457781" %}
-{% include photo-story-100.html photo="25617482061" caption="Out of all the skylines I've shot, I've never seen this many lights before." %}
-{% include photo-story-100.html photo="25411794760" %}
+{% include photo-story-100-with-padding.html photo="25617482061" caption="Out of all the skylines I've shot, I've never seen this many lights before." %}
+{% include photo-story-100-with-padding.html photo="25411794760" %}
 
 <div class="img-section-divider"></div>
 
-{% include photo-story-100.html photo="25104749403" %}
-{% include photo-story-100.html photo="25430659890" %}
+{% include photo-story-100-with-padding.html photo="25104749403" %}
+{% include photo-story-100-with-padding.html photo="25430659890" %}
 {% include photo-story-3x1-40-40-20.html photo1="25430675030" photo2="25636335111" photo3="25610372622" %}
-{% include photo-story-100.html photo="25610397732" %}
-{% include photo-story-100.html photo="25430717350" caption="Jumbo Floating Restaurant" %}
-{% include photo-story-100.html photo="25104825913" %}
-{% include photo-story-100.html photo="25101028024" %}
+{% include photo-story-100-with-padding.html photo="25610397732" %}
+{% include photo-story-100-with-padding.html photo="25430717350" caption="Jumbo Floating Restaurant" %}
+{% include photo-story-100-with-padding.html photo="25104825913" %}
+{% include photo-story-100-with-padding.html photo="25101028024" %}
 
 <div class="img-section-divider"></div>
 
 On the third day, we visited the small island of Cheung Chau (長洲) southwest of Hong Kong which housed a quaint little fishing village.  It was a sunny day, making it a perfect day away from the crowded city.
 
-{% include photo-story-100.html photo="25669014652" %}
-{% include photo-story-100.html photo="25159531054" %}
-{% include photo-story-100.html photo="25159537514" %}
-{% include photo-story-100.html photo="25159543974" %}
-{% include photo-story-100.html photo="25694948441" %}
-{% include photo-story-fullscreen.html photo="25159556664" %}
+{% include photo-story-100-with-padding.html photo="25669014652" %}
+{% include photo-story-100-with-padding.html photo="25159531054" %}
+{% include photo-story-100-with-padding.html photo="25159537514" %}
+{% include photo-story-100-with-padding.html photo="25159543974" %}
+{% include photo-story-100-with-padding.html photo="25694948441" %}
+{% include photo-story-100.html photo="25159556664" %}
 {% include photo-story-3x1-40-40-20.html photo1="25159563894" photo2="25489363330" photo3="25694980181" %}
-{% include photo-story-100.html photo="25159593014" %}
-{% include photo-story-100.html photo="25790156905" %}
-{% include photo-story-100.html photo="25764008736" %}
+{% include photo-story-100-with-padding.html photo="25159593014" %}
+{% include photo-story-100-with-padding.html photo="25790156905" %}
+{% include photo-story-100-with-padding.html photo="25764008736" %}
 {% include photo-story-2x1-50-50-vertical.html photo1="25695032561" photo2="25163507233" %}
 
 We returned to Hong Kong in the late afternoon to head up to Victoria Peak.  Of course, a trip to Hong Kong isn't complete without the grand view from the peak.
 
-{% include photo-story-fullscreen.html photo="25790163325" %}
+{% include photo-story-100.html photo="25790163325" %}
 
 # 🔅 🔅 🔅 🔆 🔆 🔆 💡 💡 💡
 {: style="text-align:center" }
 
-{% include photo-story-fullscreen.html photo="25163535813" %}
-{% include photo-story-100.html photo="25163543053" %}
+{% include photo-story-100.html photo="25163535813" %}
+{% include photo-story-100-with-padding.html photo="25163543053" %}
 
 <br>
 

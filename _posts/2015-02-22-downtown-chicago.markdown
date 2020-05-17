@@ -19,15 +19,15 @@ I flew out to Chicago to visit Diana for a week in mid February. Braving the fri
 
 {% include photo-story-3x1-25-50-25.html photo1="16489843218" photo2="16057483653" photo3="16470147487" %}
 
-{% include photo-story-100.html photo="16558274249" caption="Beautiful Architecture" %}
+{% include photo-story-100-with-padding.html photo="16558274249" caption="Beautiful Architecture" %}
 
 {% include photo-story-2x1-50-50.html photo1="16095503123" photo2="16529329869" caption="McCormick Tribune Plaza" %}
 
-{% include photo-story-100.html photo="16556944450" caption="Millennium Monument" %}
+{% include photo-story-100-with-padding.html photo="16556944450" caption="Millennium Monument" %}
 
-{% include photo-story-fullscreen.html photo="20774519296" caption="Cloud Gate (“The Bean”)" %}
+{% include photo-story-100.html photo="20774519296" caption="Cloud Gate (“The Bean”)" %}
 
-{% include photo-story-100.html photo="16720124142" caption="168 stainless steel plates welded together." %}
+{% include photo-story-100-with-padding.html photo="16720124142" caption="168 stainless steel plates welded together." %}
 
 <div class="img-section-divider"></div>
 
@@ -35,13 +35,13 @@ I flew out to Chicago to visit Diana for a week in mid February. Braving the fri
 
 {% include photo-story-2x1-50-50.html photo1="16714358412" photo2="16508147147" %}
 
-{% include photo-story-100.html photo="16533853410" caption="Calder’s Flamingo" %}
+{% include photo-story-100-with-padding.html photo="16533853410" caption="Calder’s Flamingo" %}
 
 <div class="img-section-divider"></div>
 
-{% include photo-story-100.html photo="16093089614" caption="United States Post Office (Loop Station Chicago, Illinois)" %}
+{% include photo-story-100-with-padding.html photo="16093089614" caption="United States Post Office (Loop Station Chicago, Illinois)" %}
 
-{% include photo-story-fullscreen.html photo="16744397015" caption="The “Windy City”" %}
+{% include photo-story-100.html photo="16744397015" caption="The “Windy City”" %}
 
 <br>
 
@@ -52,9 +52,9 @@ Despite the cold, it was truly a beautiful day.
 
 {% include photo-story-2x1-50-50-vertical.html photo1="16122058094" photo2="16558287949" %}
 
-{% include photo-story-100.html photo="16743236441" %}
+{% include photo-story-100-with-padding.html photo="16743236441" %}
 
-{% include photo-story-100.html photo="16743224191" %}
+{% include photo-story-100-with-padding.html photo="16743224191" %}
 
 <div class="img-section-divider"></div>
 
@@ -62,9 +62,9 @@ After strolling around for the day. We decided to wind down for the night with a
 
 <div class="img-section-spacer"></div>
 
-{% include photo-story-100.html photo="16054289224" caption="Lake Michigan was 80% frozen at this time. (iPhone 6)" %}
+{% include photo-story-100-with-padding.html photo="16054289224" caption="Lake Michigan was 80% frozen at this time. (iPhone 6)" %}
 
-{% include photo-story-100.html photo="16557046620" caption="18mm — 1/3 sec — f/7.1 — ISO 3200" %}
+{% include photo-story-100-with-padding.html photo="16557046620" caption="18mm — 1/3 sec — f/7.1 — ISO 3200" %}
 
 <div class="img-section-divider"></div>
 
