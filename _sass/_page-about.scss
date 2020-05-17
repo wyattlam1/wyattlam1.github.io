@@ -1,6 +1,5 @@
 .about                      { 
-    min-width: 800px; 
-    overflow: hidden; 
+    min-width: 800px;  
     padding: ($spacing) ($spacing*2) 0 ($spacing*2); 
     @include media-query($on-tablet) {
         min-width: 0; 
