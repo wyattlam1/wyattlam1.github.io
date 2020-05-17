@@ -13,11 +13,11 @@
     padding: ($spacing * 2) ($post-content-padding);
 
     @include media-query($on-tablet) { 
-        padding: 0 ($post-content-padding-tablet);
+        padding: ($spacing) ($post-content-padding-tablet);
     }
 
     @include media-query($on-phone) { 
-        padding: 0 ($post-content-padding-phone);
+        padding: ($spacing) ($post-content-padding-phone);
     }
 }
 
