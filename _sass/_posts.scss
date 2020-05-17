@@ -2,10 +2,15 @@
   INDIVIDUAL POSTS
  -----------------------------*/
 
+.post-background-container {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
 .post { 
     display: block; 
-    margin: ($spacing * 2) auto; 
-    padding: 0 ($post-content-padding);
+    padding: ($spacing * 2) ($post-content-padding);
 
     @include media-query($on-tablet) { 
         padding: 0 ($post-content-padding-tablet);

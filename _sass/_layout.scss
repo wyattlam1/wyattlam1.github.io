@@ -1,8 +1,15 @@
 /*------------------------------
     MAIN
  -----------------------------*/
-.container      { padding: 0; margin: 0; }
-.body_container { padding: 0; margin: 0; }
+html, body {
+    height: 100%;
+    background-color: $background-color; 
+}
+
+.body_container {
+    height: 100%;
+    max-width: 1400px;
+}
 
 $border-color: #e1e1e1;
 /*------------------------------
@@ -36,17 +43,14 @@ $left-container-width: 230px;
  -----------------------------*/
  $photo-list-story-height: 250px;
 .right-container { 
+    height: 100%;
+    display: flex;
+    flex-flow: column;
     margin-left: $left-container-width + $spacing * 2; 
-    background-color: rgb(250, 250, 250);
 
     @include media-query($on-phone) {
         margin: 0;
     }
-}
-
-.post { 
-    padding-top: $spacing; 
-    background-color: #ffffff; 
 }
 
 .post-list { 
