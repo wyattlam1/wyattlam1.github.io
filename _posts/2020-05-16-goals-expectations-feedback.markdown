@@ -6,7 +6,7 @@ date:           2020-05-16
 categories:     managing
 ---
 
-One of the hardest things I struggled with in my transition from a tech lead to an engineering manager is stepping away from personally driving projects to supporting others to do so in my stead. It was challenging to let the people I supported independently drive the project while still ensuring it was completed correctly and on time.
+One of the hardest things I struggled with in my transition from a tech lead to an engineering manager is stepping away from personally driving projects to supporting others to do so in my stead. It was challenging to enable my team to independently drive their projects while still ensuring they were completed correctly and on time.
 
 I learned this framework that I’ve found extremely useful and I still conciously revisit this periodically, especially when I find myself in a similar situation. 
 
