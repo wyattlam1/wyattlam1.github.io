@@ -1,107 +1,71 @@
-function FlickrPhoto(title, owner, flickrURL, imageURL) {
-    this.title = title;
-    this.owner = owner;
-    this.flickrURL = flickrURL;
-    this.imageURL = imageURL;
-}
+const FLICKR_API_KEY = "e62f00df5c9e726baeea4bf05e956f98";
+const WYATTLAM_USER_ID = '95913990@N07';
+const BEST_OF_ALBUMS = {
+    2016: "72157675078787323"
+};
 
-function FlickrService() {
-    this.flickrApiKey = "e62f00df5c9e726baeea4bf05e956f98";
-    this.flickrGetSizesURL =  "https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&format=json&nojsoncallback=1"
-
-    this.getPhotoSizes = function(photoId, callback) {
-        var ajaxOptions = {
-            type: 'GET',
-            url: this.flickrGetSizesURL,
-            data: { api_key: this.flickrApiKey, photo_id: photoId }
+const FlickrService = function () {
+    const getPhotoSizes = function (photoId, callback) {
+        const url = new URL("https://api.flickr.com/services/rest/?method=flickr.photos.getSizes&format=json&nojsoncallback=1");
+        const params = {
+            'api_key': FLICKR_API_KEY,
+            'photo_id': photoId,
         };
+        Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
 
-        $.ajax(ajaxOptions)
-            .done(function(data) {
-                if (data.stat == "ok") {
-                    callback(data.sizes)
+        fetch(url)
+            .then((response) => {
+                if (response.ok) {
+                    response.json().then((json) => {
+                        callback(json.sizes);
+                    });
                 } else {
-                    console.log("no data");
+                    console.log(response);
                 }
-            })
-            .fail(function(error) {
-                console.log("Error!")
-                console.log(error);
             });
     }
-}
 
-var flickrService = new FlickrService();
+    // API Docs: https://www.flickr.com/services/api/flickr.photosets.getPhotos.htm
+    const _getAlbum = function (photoSetId, onComplete) {
+        const url = new URL('https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&format=json&nojsoncallback=1');
+        const params = {
+            'api_key': FLICKR_API_KEY,
+            'user_id': WYATTLAM_USER_ID,
+            'photoset_id': photoSetId,
+            'privacy_filter': '1',
+            'extras': 'url_s',
+        }
 
-function photoByComparingWidth(imgContainerWidth, photoSizes) {
-    var photo = "";
-    if (imgContainerWidth <= 240) {
-        photo = photoSizes.size[3];
-    } else if (imgContainerWidth <= 320) {
-        photo = photoSizes.size[4];
-    } else if (imgContainerWidth <= 500) {
-        photo = photoSizes.size[5];
-    } else if (imgContainerWidth <= 640) {
-        photo = photoSizes.size[6];
-    } else if (imgContainerWidth <= 800) {
-        photo = photoSizes.size[7];
-    } else if (imgContainerWidth <= 1024) {
-        photo = photoSizes.size[8];
-    } else {
-        photo = photoSizes.size[9];
+        Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
+
+        fetch(url)
+            .then((response) => {
+                if (response.ok) {
+                    response.json().then((json) => {
+                        onComplete({
+                            title: json.photoset.title,
+                            photoIds: json.photoset.photo.map((photo) => {
+                                return {
+                                    id: photo.id,
+                                    thumbnailUrl: photo.url_s
+                                }
+                            }),
+                        });
+                    });
+                } else {
+                    console.log(response);
+                }
+            });
     }
-    return photo;
-}
 
-function photoByComparingHeight(imgContainerHeight, photoSizes) {
-    var photo = ""
-    if (imgContainerHeight <= 180) {
-        photo = photoSizes.size[3];
-    } else if (imgContainerHeight <= 240) {
-        photo = photoSizes.size[4];
-    } else if (imgContainerHeight <= 375) {
-        photo = photoSizes.size[5];
-    } else if (imgContainerHeight <= 480) {
-        photo = photoSizes.size[6];
-    } else if (imgContainerHeight <= 600) {
-        photo = photoSizes.size[7];
-    } else if (imgContainerHeight <= 768) {
-        photo = photoSizes.size[8];
-    } else {
-        photo = photoSizes.size[9];
+    const getAlbums = function (onComplete) {
+        getAlbum(BEST_OF_ALBUMS[2016], onComplete);
     }
-    return photo;
-}
 
-$(document).ready(function() {
-    $('.img-container').each(function(i, imgContainer) {
-        var photoID = imgContainer.id;
-        flickrService.getPhotoSizes(photoID, function(photoSizes) {
-            var imgContainerWidth = imgContainer.offsetWidth;
-            var imgContainerHeight = imgContainer.offsetHeight;
-            var photo = "";
-            if (imgContainerWidth < imgContainerHeight) {
-               photo = photoByComparingHeight(imgContainerHeight, photoSizes);
-            } else {
-               photo = photoByComparingWidth(imgContainerWidth, photoSizes);
-            }
+    return {
+        getPhotoSizes,
+        getAlbums,
+    };
+}();
 
-            // set lightbox link
-            $(imgContainer.children[0]).attr("href", photoSizes.size[9].source);
-
-            // set actual image
-            // div background images require at least width or height to be set.
-            //   In this case, we have a width of 100% and a height of 'auto', which doesn't render.
-            //   The solution is to force a padding of the width to height ratio.
-            if (imgContainerHeight == 0) {  
-                $(imgContainer).css('cssText', "padding-top:" + (photo.height/photo.width * 100) + '% !important');
-            }
-
-            $(imgContainer).attr("data-original", photo.source)
-            $(imgContainer).lazyload({ 
-                threshold : 500,
-                effect : "fadeIn" 
-            })
-        });
-    });
-});
+export { FlickrService };
