@@ -1,0 +1,9 @@
+<a href="{{ post.url | prepend: site.baseurl }}">
+    <li>
+        <span class="post-list-title">{{ post.title }}</span>
+        <br>
+        <span class="post-excerpt">
+            {{ post.excerpt | strip_html | truncatewords:75 }}
+        </span>
+    </li>
+</a>

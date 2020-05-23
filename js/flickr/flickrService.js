@@ -1,3 +1,5 @@
+//import fetch from 'node-fetch';
+
 const FLICKR_API_KEY = "e62f00df5c9e726baeea4bf05e956f98";
 const WYATTLAM_USER_ID = '95913990@N07';
 const BEST_OF_ALBUMS = {
@@ -26,7 +28,7 @@ const FlickrService = function () {
     }
 
     // API Docs: https://www.flickr.com/services/api/flickr.photosets.getPhotos.htm
-    const _getAlbum = function (photoSetId, onComplete) {
+    const getAlbum = function (photoSetId, onComplete) {
         const url = new URL('https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&format=json&nojsoncallback=1');
         const params = {
             'api_key': FLICKR_API_KEY,
@@ -58,13 +60,9 @@ const FlickrService = function () {
             });
     }
 
-    const getAlbums = function (onComplete) {
-        getAlbum(BEST_OF_ALBUMS[2016], onComplete);
-    }
-
     return {
         getPhotoSizes,
-        getAlbums,
+        getAlbum,
     };
 }();
 

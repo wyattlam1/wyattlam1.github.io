@@ -1,0 +1,17 @@
+---
+layout:         post
+title:          "Best of 2019"
+date:           2019-12-31
+categories:     photo-story
+---
+
+{% include photo-story-2x1-50-50.html photo1="25338196583" photo2="25905755561" %}
+{% include photo-story-2x1-50-50.html photo1="25879925832" photo2="29735139136" %}
+{% include photo-story-2x1-50-50.html photo1="29145853923" photo2="29145849463" %}
+{% include photo-story-2x1-50-50.html photo1="29771090575" photo2="29143614794" %}
+{% include photo-story-2x1-50-50.html photo1="31380406354" photo2="32073466092" %}
+{% include photo-story-2x1-50-50.html photo1="25411794760" photo2="25617482061" %}
+{% include photo-story-2x1-50-50.html photo1="25790163325" photo2="25163535813" %}
+{% include photo-story-2x1-50-50.html photo1="27265674644" photo2="24804377372" %}
+{% include photo-story-2x1-50-50.html photo1="25268250911" photo2="24576007825" %}
+{% include photo-story-2x1-50-50.html photo1="24921660135" %}
