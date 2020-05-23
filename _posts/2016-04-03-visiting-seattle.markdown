@@ -3,6 +3,7 @@ layout:         post
 title:          "Visiting Seattle"
 subtitle:       "What to see and what to do."
 date:           2016-04-03
+type:           blog
 categories:     miscellaneous
 ---
 

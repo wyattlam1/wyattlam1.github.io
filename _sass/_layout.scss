@@ -41,7 +41,6 @@ $left-container-width: 230px;
 /*------------------------------
     RIGHT CONTAINER
  -----------------------------*/
- $photo-list-story-height: 250px;
 .right-container { 
     height: 100%;
     display: flex;
@@ -52,64 +51,6 @@ $left-container-width: 230px;
         margin: 0;
     }
 }
-
-.post-list { 
-    max-width: 700px;
-    padding-top: $spacing; 
-    list-style: none; 
-    margin: 0 ($spacing) 0 ($spacing*2);
-
-    @include media-query($on-tablet) {
-        max-width: 100%; 
-        margin: 0 ($spacing) 0 ($spacing);
-    } 
-
-    @include media-query($on-phone) {
-        max-width: 100%; 
-        margin: 0;
-    } 
-}
-
-.post-list li { 
-    padding: $spacing; 
-    margin-bottom: $spacing/2; 
-    overflow:hidden;
-    border: 0px solid $border-color; 
-    border-radius: 3px; 
-    background-color:#ffffff; 
-    box-shadow: 0 0px 2px 0 darken($border-color, 5%); 
-
-    @include media-query($on-phone) {
-        border-radius: 0;
-    } 
-}
-
-.post-list-photo-story { 
-    max-width:100%; 
-    height:$photo-list-story-height; 
-    background-size:cover; 
-    background-repeat: no-repeat; 
-
-    @include media-query($on-tablet) {
-        background-position: 0 !important; 
-        background-size: cover cover; 
-    }
-
-    @include media-query($on-phone) {
-        background-position: 0 !important; 
-        background-size: cover cover;
-    }
-}
-.post-list-photo-story-overlay { 
-    height: $photo-list-story-height + $spacing*2; 
-    margin: -$spacing; 
-    background-color: #000000; opacity:0.2 
-}
-
-.post-list-photo-story-overlay:hover       { opacity:0 }
-.post-list-photo-story .post-list-title    { color:#ffffff; position: relative; bottom: $photo-list-story-height; }
-.post-list-photo-story .post-list-subtitle { color:#eeeeee; font-size: 16px; position: relative; bottom: $photo-list-story-height; }
-
 
 /*------------------------------
     OTHER

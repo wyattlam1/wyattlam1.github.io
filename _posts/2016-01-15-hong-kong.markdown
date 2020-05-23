@@ -3,7 +3,7 @@ layout:       post
 title:        "Hong Kong 香港"
 subtitle:     "A visit to the concrete jungle."
 date:         2016-03-17
-categories:   photo-story
+type:         photo-story
 cover:        https://c2.staticflickr.com/2/1592/25163535813_6ec748c8fa_b_d.jpg
 cover-offset: 120px
 ---

@@ -1,16 +1,16 @@
 <div class="img-section">
     <div class="img-table">
-        
+
         <div id="{{ include.photo1 }}" class="img-container width50 heightShort">
             <a data-lightbox="site" data-title="{{ include.caption1 }}"></a>
         </div>
 
-        <div class="img-container-vertical-spacer"></div>
-
-        <div id="{{ include.photo2 }}" class="img-container width50 heightShort">
-            <a data-lightbox="site" data-title="{{ include.caption2 }}"></a>
-        </div>
-
+        {% if include.photo2 %}
+            <div class="img-container-vertical-spacer"></div>
+            <div id="{{ include.photo2 }}" class="img-container width50 heightShort">
+                <a data-lightbox="site" data-title="{{ include.caption2 }}"></a>
+            </div>
+        {% endif %}
     </div>
 
     {% if include.caption %}

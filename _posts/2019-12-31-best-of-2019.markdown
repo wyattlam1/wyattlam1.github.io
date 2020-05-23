@@ -2,16 +2,19 @@
 layout:         post
 title:          "Best of 2019"
 date:           2019-12-31
-categories:     photo-story
+type:           photo-album
+categories:     photo-album
+thumbs:         [https://live.staticflickr.com/65535/49926400143_b22f3c826a_m.jpg, 
+                 https://live.staticflickr.com/65535/49926401563_85eb55552b_m.jpg, 
+                 https://live.staticflickr.com/65535/49927218907_81d64e02da_m.jpg
+                ]
 ---
 
-{% include photo-story-2x1-50-50.html photo1="25338196583" photo2="25905755561" %}
-{% include photo-story-2x1-50-50.html photo1="25879925832" photo2="29735139136" %}
-{% include photo-story-2x1-50-50.html photo1="29145853923" photo2="29145849463" %}
-{% include photo-story-2x1-50-50.html photo1="29771090575" photo2="29143614794" %}
-{% include photo-story-2x1-50-50.html photo1="31380406354" photo2="32073466092" %}
-{% include photo-story-2x1-50-50.html photo1="25411794760" photo2="25617482061" %}
-{% include photo-story-2x1-50-50.html photo1="25790163325" photo2="25163535813" %}
-{% include photo-story-2x1-50-50.html photo1="27265674644" photo2="24804377372" %}
-{% include photo-story-2x1-50-50.html photo1="25268250911" photo2="24576007825" %}
-{% include photo-story-2x1-50-50.html photo1="24921660135" %}
+{% include photo-story-2x1-50-50.html photo1="49926400143" photo2="49926401563" %}
+{% include photo-story-2x1-50-50.html photo1="49927218907" photo2="49926404223" %}
+{% include photo-story-2x1-50-50.html photo1="49926405643" photo2="49926925416" %}
+{% include photo-story-2x1-50-50.html photo1="49927223882" photo2="49926927271" %}
+{% include photo-story-2x1-50-50.html photo1="49926928176" photo2="49926411073" %}
+{% include photo-story-2x1-50-50.html photo1="49926411728" photo2="49926412793" %}
+{% include photo-story-2x1-50-50.html photo1="49926413498" photo2="49927229612" %}
+{% include photo-story-2x1-50-50.html photo1="49927213857" %}

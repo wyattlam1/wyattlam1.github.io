@@ -3,6 +3,7 @@ layout: post
 title:  "Chicago in the Summer"
 subtitle: "It's a lot warmer this time."
 date:   2015-10-07
+type: photo-story
 categories: photo-story
 cover: https://c2.staticflickr.com/6/5670/21950900225_ca0a7072e6_b_d.jpg
 cover-offset: 50px

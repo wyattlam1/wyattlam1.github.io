@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "Zeenook Inc. - Startup Internship"
-date:   2011-03-20
+layout:     post
+title:      "Zeenook Inc. - Startup Internship"
+date:       2011-03-20
+type:       blog    
 categories: technology zeenook internship
 
 ---

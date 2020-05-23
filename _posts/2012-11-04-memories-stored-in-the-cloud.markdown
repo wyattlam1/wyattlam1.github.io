@@ -2,6 +2,7 @@
 layout: post
 title:  "Memories Stored in the Cloud"
 date:   2012-11-04
+type:       blog
 categories: life
 ---
 After seven years of using  the Gmail account I created in 8th grade, I finally decided to switch over to a Gmail account that contains my real name.  I wanted something more professional than my 8th grade silly alias.  However, I still wanted to keep all my past archived emails in case I wanted to refer back to them in the future. So I set out to accomplish this task.

@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "Hardest Major at UCSD?"
-date:   2012-02-09
+layout:     post
+title:      "Hardest Major at UCSD?"
+date:       2012-02-09
+type:       blog
 categories: miscellaneous
 ---
 I got the idea from my friend, Wes, and decided to play around with it myself. I wrote a small Java program that queried the [CAPE](http://www.cape.ucsd.edu/stats.html) database by major. I then parsed the HTML pages I retrieved and averaged the number of hours spent studying/working by adding up all the hours and dividing it by the number of rows on the page. I sorted the majors by “hours spent studying”, from highest to lowest. I also added in a few arbitrary restrictions for several cases did not result in enough data. For example, I excluded results that contained less than 20 questionaire returned. I also excluded majors that had less than 10 CAPE evaluations (some majors didn’t have any at all). I know this is definitely not *completely* representative of “the hardest major.” They’re just some interesting stats. Anyways, here are the results! Hope you found them interesting like I did!

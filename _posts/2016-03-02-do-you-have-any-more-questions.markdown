@@ -2,6 +2,7 @@
 layout:     post
 title:      "Do you have any questions?"
 date:       2016-03-02
+type:       blog
 categories: interviewing
 excerpt:    "Over the past couple of years, I have frequently received this response from interview candidates. It surprises me that so many candidates forgo the  valuable opportunity to gain insights on their potential employer. Perhaps they truly don’t have any more questions, or all their questions were previously answered, but I find both of those scenarios highly doubtful."
 ---

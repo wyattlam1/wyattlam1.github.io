@@ -3,7 +3,7 @@ layout: post
 title:  "Downtown Chicago"
 subtitle: "2° F + (-12° F wind chill) + ☀"
 date:   2015-02-22
-categories: photo-story
+type: photo-story
 cover: https://c1.staticflickr.com/9/8639/16721250795_50353d2a90_b_d.jpg
 cover-offset: 170px
 ---

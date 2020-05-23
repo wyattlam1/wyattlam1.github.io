@@ -2,6 +2,7 @@
 layout: post
 title: "Making Career Decisions"
 date: 2015-10-16
+type: blog
 categories: career
 ---
 

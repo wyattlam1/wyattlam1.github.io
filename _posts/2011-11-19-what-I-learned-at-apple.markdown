@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "What I Learned at Apple"
-date:   2011-11-19
+layout:     post
+title:      "What I Learned at Apple"
+date:       2011-11-19
+type:       blog
 categories: technology
 ---
 I interned at Apple Inc. this past summer as a software engineer. I was part of the Consumer Applications Engineering department, who was in charge of the popular Mac OS applications such as iPhoto, GarageBand, or Final Cut Pro. The three months I worked at Apple became one of my best learning experiences in my academic career. I gained invaluable insights on building a successful career and experienced the culture of a large company. Out of all the things I learned, one specific aspect intrigued me the most. It was the company’s attention to detail.

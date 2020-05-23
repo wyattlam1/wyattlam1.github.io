@@ -2,7 +2,7 @@
 layout: post
 title:  "Grand Canyon"
 date:   2014-12-26
-categories: photo-story
+type:       photo-story
 cover: https://farm8.staticflickr.com/7484/16218512851_a37ac3ecf0_b_d.jpg
 cover-offset: 100px
 ---

@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "Why I Like Computer Science and Programming"
-date:   2011-07-17
+layout:     post
+title:      "Why I Like Computer Science and Programming"
+date:       2011-07-17
+type:       blog
 categories: technology
 ---
 I didn’t always enjoy programming. My first exposure to programming was in AP Computer Science during my junior year in high school and I didn’t enjoy it. I found it extremely difficult to pick up and I struggled with the most basic concepts throughout the year. We programmed in Java and learned simple OOP principles and also some basic data structures. Despite a great teacher, I never fully understood the concepts we learned and did not perform as well as I would have liked. Thus when applying to college, I temporarily dropped my pursuit in studying computer science and explored some other majors when I entered my first year in college. However, I eventually lost interest in those majors and decided to give computer science another try.

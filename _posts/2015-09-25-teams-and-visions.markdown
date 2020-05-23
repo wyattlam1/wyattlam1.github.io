@@ -2,6 +2,7 @@
 layout: post
 title:  "Teams and Visions"
 date:   2015-09-25
+type: blog
 categories: process team vision 
 ---
 

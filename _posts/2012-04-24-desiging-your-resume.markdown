@@ -2,6 +2,7 @@
 layout: post
 title:  "Designing Your Resume"
 date:   2012-04-24
+type:       blog
 categories: miscellaneous
 ---
 Shortly after arriving at college, I found myself applying to jobs and internships. Throughout this process, I must have written at least ten different versions of my resume, gradually improving features that didn’t work. I have finally arrived at the final version of which I am quite satisfied with.  I feel that it works extremely well, and I have yet to see any other better template, so I would like to share with you why this makes such a good resume.

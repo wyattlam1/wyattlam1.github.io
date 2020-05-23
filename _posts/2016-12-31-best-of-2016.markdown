@@ -1,0 +1,21 @@
+---
+layout:         post
+title:          "Best of 2016"
+date:           2016-12-31
+type:           photo-album
+categories:     photo-album
+thumbs:         [https://live.staticflickr.com/1691/25338196583_840d4d161d_m.jpg, 
+                 https://live.staticflickr.com/1679/25905755561_66f46b1a44_m.jpg, 
+                 https://live.staticflickr.com/1695/25879925832_ea00cb3474_m.jpg
+                ]
+---
+
+{% include photo-story-2x1-50-50.html photo1="25338196583" photo2="25905755561" %}
+{% include photo-story-2x1-50-50.html photo1="25879925832" photo2="29735139136" %}
+{% include photo-story-2x1-50-50.html photo1="29145853923" photo2="29145849463" %}
+{% include photo-story-2x1-50-50.html photo1="29771090575" photo2="29143614794" %}
+{% include photo-story-2x1-50-50.html photo1="31380406354" photo2="32073466092" %}
+{% include photo-story-2x1-50-50.html photo1="25411794760" photo2="25617482061" %}
+{% include photo-story-2x1-50-50.html photo1="25790163325" photo2="25163535813" %}
+{% include photo-story-2x1-50-50.html photo1="24804377372" photo2="25268250911" %}
+{% include photo-story-2x1-50-50.html photo1="24576007825" photo2="24921660135" %}

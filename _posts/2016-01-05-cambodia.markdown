@@ -3,6 +3,7 @@ layout:       post
 title:        "Cambodia"
 subtitle:     "SFO ✈ REP — 19 Hours — 7,815 Miles"
 date:         2016-03-06
+type:         photo-story
 categories:   photo-story
 cover:        https://c2.staticflickr.com/2/1544/24895072346_2de2f87f8c_b_d.jpg
 cover-offset: 160px

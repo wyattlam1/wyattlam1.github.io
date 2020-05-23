@@ -2,6 +2,7 @@
 layout: post
 title:  "Getting The First Internship: The Chicken & The Egg"
 date:   2012-10-08
+type:       blog
 categories: miscellaneous
 ---
 So now that I finished my undergraduate studies, I decided to take the time to reflect back on my past experiences, namely on my internships.  Each year, when spring quarter rolled around, everyone was in search for summer internships.  UCSD would host several job fairs where numerous companies visited our campus to recruit.  During this time, everyone began to polish their resumes in preparation to meet the recruiters.  We would compare resumes and trade advice on what courses to include or projects to list.  We would fantasize about working at our favored companies, making mental lists of which ones were attending the job fair.

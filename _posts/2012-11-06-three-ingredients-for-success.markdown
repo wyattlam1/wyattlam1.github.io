@@ -2,6 +2,7 @@
 layout: post
 title:  "Three Ingredients for Success"
 date:   2012-11-06
+type:       blog
 categories: life
 ---
 Yes, I’m sure there are thousands of the same “cheezy” topics out there,  but I came across my own personal view a few days ago and I’d like to share it with you.

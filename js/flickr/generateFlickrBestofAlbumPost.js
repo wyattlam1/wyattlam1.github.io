@@ -1,7 +1,26 @@
 import { FlickrConfig } from './flickrConfig.js';
 import fetch from 'node-fetch';
 
-const twoByTwoTemplate = '{% include photo-story-2x1-50-50.html photo1="{0}" photo2="{1}" %}'
+const BEST_BY_POST_TYPE_CONFIG = (year, thumb1, thumb2, thumb3) =>
+    `---
+layout:         post
+title:          "Best of ${year}"
+date:           ${year}-12-31
+type:           photo-album
+categories:     photo-album
+thumbs:         [${thumb1}, 
+                ${thumb2}, 
+                ${thumb3}
+                ]
+---
+
+`
+
+const TWO_BY_TWO_TEMPLATE = (photoA, photoB) =>
+    (photoB != null) ?
+        `{% include photo-story-2x1-50-50.html photo1="${photoA}" photo2="${photoB}" %}`
+        :
+        `{% include photo-story-2x1-50-50.html photo1="${photoA}" %}`;
 
 String.prototype.format = function () {
     var content = this;
@@ -18,6 +37,10 @@ const fetchPhotoIds = (albumId, onComplete) => {
         .then((response) => {
             if (response.ok) {
                 response.json().then((json) => {
+                    if (json.photoset == null) {
+                        console.log("Error:" + JSON.stringify(json));
+                        return;
+                    }
                     onComplete({
                         title: json.photoset.title,
                         photoIds: json.photoset.photo.map((photo) => {
@@ -34,23 +57,31 @@ const fetchPhotoIds = (albumId, onComplete) => {
         });
 }
 
-const generateAlbum = (albumId) => {
+const getThumbnails = (photoIds) =>
+    photoIds.map((item) => item.thumbnailUrl).slice(0, 3)
+
+const buildPhotoGrid = (photoIds) => {
+    const result = [];
+    var i = 0;
+    while (i < photoIds.length) {
+        const photoA = photoIds[i].id;
+        const photoB = (i + 1 < photoIds.length) ? photoIds[i + 1].id : null;
+        result.push(TWO_BY_TWO_TEMPLATE(photoA, photoB));
+        i += 2;
+    }
+    return result.join("\n");
+}
+
+const generateAlbum = (albumId, year) => {
     fetchPhotoIds(
         albumId,
         (response) => {
-            const photoIds = response.photoIds;
-            const result = [];
-            var i = 0;
-            while (i < photoIds.length) {
-                if (i + 1 < photoIds.length) {
-                    result.push(twoByTwoTemplate.format(photoIds[i].id, photoIds[i + 1].id));
-                } else {
-                    result.push(twoByTwoTemplate.format(photoIds[i].id, "0"));
-                }
-                i += 2;
-            }
-            console.log(result.join("\n"));
+            const photoGridString = buildPhotoGrid(response.photoIds);
+
+            const thumbnails = getThumbnails(response.photoIds);
+            const postConfig = BEST_BY_POST_TYPE_CONFIG(year, thumbnails[0], thumbnails[1], thumbnails[2]);
+            console.log(postConfig + photoGridString);
         });
 }
 
-generateAlbum('72157675078787323');
+generateAlbum('72157648085535294', '2014');

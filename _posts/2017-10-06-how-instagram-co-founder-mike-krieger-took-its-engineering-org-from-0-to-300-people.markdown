@@ -2,6 +2,7 @@
 layout:         post
 title:          "Generalist vs Specialist"
 date:           2017-10-06
+type:           blog
 categories:     technology
 ---
 

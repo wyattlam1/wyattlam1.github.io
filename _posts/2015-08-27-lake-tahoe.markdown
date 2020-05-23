@@ -3,6 +3,7 @@ layout: post
 title:  "Lake Tahoe"
 subtitle: "Wake up at 4:30am for the sunrise? Ok."
 date:   2015-08-27
+type:   photo-story
 categories: photo-story
 cover: https://farm1.staticflickr.com/729/20703213549_07b77e860a_c_d.jpg
 ---

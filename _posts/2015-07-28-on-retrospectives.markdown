@@ -2,6 +2,7 @@
 layout: post
 title:  "On Retrospectives"
 date:   2015-07-28
+type:       blog
 categories: process team management
 ---
 I have always enjoyed retrospectives given my analytical nature.  Retrospectives are essential tools that help teams evaluate where they currently are and where they are headed.  They provide an outlet for the team to review, analyze and communicate past successes or struggles.  Doing so not only improves the overall rapport of the team, but also the communication skills of each individual contributor.  I have experienced a variety of retrospectives across several different teams and have even ran them as the team’s scrum master.  Yes, I *enjoy* retrospectives.  

@@ -1,0 +1,10 @@
+<a href="{{ post.url | prepend: site.baseurl }}">
+    <li>
+        <span class="post-list-title">{{ post.title }}</span>
+        <div class="post-list-album-thumbnail-container">
+            <img class="post-list-album-thumbnail" src={{ post.thumbs[0] }}/>
+            <img class="post-list-album-thumbnail" src={{ post.thumbs[1] }}/>
+            <img class="post-list-album-thumbnail" src={{ post.thumbs[2] }}/>
+        </div>
+    </li>
+</a>

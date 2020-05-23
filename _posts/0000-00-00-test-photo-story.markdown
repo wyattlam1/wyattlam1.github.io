@@ -3,7 +3,7 @@ layout:         post
 title:          "Test Photo Story"
 subtitle:		"Test subtitle"
 date:           2020-05-15
-categories:     photo-story
+type:           photo-story
 cover: 			https://c2.staticflickr.com/6/5670/21950900225_ca0a7072e6_b_d.jpg
 cover-offset: 	50px
 published:		false

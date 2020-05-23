@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "Seeing the World Through My Camera"
-date:   2012-02-02
+layout:     post
+title:      "Seeing the World Through My Camera"
+date:       2012-02-02
+type:       blog
 categories: photography
 ---
 Photography is my favorite hobby. I absolutely love taking pictures with my DSLR and do so every chance I get. If I’m not out taking pictures, I’m either perusing photography blogs, browsing people’s pictures, or researching camera gear. I have learned a great deal regarding photography over the years and it has gradually become more than just a hobby. Learning to take pictures has changed the way I view the world around me. Instead of seeing my surroundings through my eyes, photography has taught me to see it through my camera.
