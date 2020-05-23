@@ -19,7 +19,7 @@ instagram_username: wyattlam
 # Site urls
 about_url: "/about/"
 posts_url: "/posts/"
-photo_stories_url: "/photo-stories/"
+photos_url: "/photos/"
 
 # Pagination
 paginate: 10

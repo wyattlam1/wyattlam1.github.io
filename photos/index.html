@@ -3,8 +3,10 @@ layout: default
 ---
 <ul class="post-list">
     {% for post in site.posts %}
-        {% if post.cover %}
+        {% if post.type == "photo-story" %}
             {% include post-list-photo-story-item.html %}
+        {% elsif post.type == "photo-album" %}
+            {% include post-list-photo-album-item.html %}
         {% endif %}
     {% endfor %}
 </ul>
