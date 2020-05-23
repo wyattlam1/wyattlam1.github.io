@@ -81,7 +81,6 @@ $post-list-border-radius: 3px;
 .post-list-album-thumbnail { 
     max-width: 32%;
     flex: 32%;
-    
     border-radius: $post-list-border-radius;
 
     @include media-query($on-tablet) {
@@ -91,4 +90,8 @@ $post-list-border-radius: 3px;
     @include media-query($on-phone) {
         border-radius: 0;    
     }
+}
+
+.post-list-album-thumbnail img { 
+    width: 100%;
 }
