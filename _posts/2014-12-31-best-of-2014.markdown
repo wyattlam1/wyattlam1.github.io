@@ -4,10 +4,10 @@ title:          "Best of 2014"
 date:           2014-12-31
 type:           photo-album
 categories:     photo-album
-thumbs:         [https://live.staticflickr.com/2835/13652640564_d78930c5d9_m.jpg, 
-                https://live.staticflickr.com/2949/15353510571_43430e4fe6_m.jpg, 
-                https://live.staticflickr.com/8618/16011974438_69bfbedf5c_m.jpg
-                ]
+thumbs:
+  - https://live.staticflickr.com/2835/13652640564_d78930c5d9_m.jpg 
+  - https://live.staticflickr.com/2949/15353510571_43430e4fe6_m.jpg
+  - https://live.staticflickr.com/8618/16011974438_69bfbedf5c_m.jpg
 ---
 
 {% include photo-story-2x1-50-50.html photo1="13652640564" photo2="15353510571" %}

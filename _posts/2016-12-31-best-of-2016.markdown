@@ -4,10 +4,10 @@ title:          "Best of 2016"
 date:           2016-12-31
 type:           photo-album
 categories:     photo-album
-thumbs:         [https://live.staticflickr.com/1691/25338196583_840d4d161d_m.jpg, 
-                 https://live.staticflickr.com/1679/25905755561_66f46b1a44_m.jpg, 
-                 https://live.staticflickr.com/1695/25879925832_ea00cb3474_m.jpg
-                ]
+thumbs:
+  - https://live.staticflickr.com/1691/25338196583_840d4d161d_m.jpg 
+  - https://live.staticflickr.com/1679/25905755561_66f46b1a44_m.jpg
+  - https://live.staticflickr.com/1695/25879925832_ea00cb3474_m.jpg
 ---
 
 {% include photo-story-2x1-50-50.html photo1="25338196583" photo2="25905755561" %}
