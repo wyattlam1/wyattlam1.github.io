@@ -4,6 +4,10 @@ title:          "Best of 2019"
 date:           2019-12-31
 type:           photo-album
 categories:     photo-album
+thumbs:         
+  - https://live.staticflickr.com/65535/49926400143_b22f3c826a_m.jpg
+  - https://live.staticflickr.com/65535/49926401563_85eb55552b_m.jpg
+  - https://live.staticflickr.com/65535/49927218907_81d64e02da_m.jpg
 ---
 
 {% include photo-story-2x1-50-50.html photo1="49926400143" photo2="49926401563" %}
