@@ -13,8 +13,6 @@ SFO ✈ ORD
 
 {% include photo-story-2x1-50-50-vertical.html photo1="15987347503" photo2="15984862324" %}
 
-<div class="img-section-spacer"></div>
-
 I flew out to Chicago to visit Diana for a week in mid February. Braving the frigid cold, we headed out for the day to stroll around downtown Chicago. The 2 degree temperature was actually bearable. It was only the wind chill that made it feel like little daggers stabbing into your face. I couldn’t decide if I preferred this sunny, freezing Chicago to the cloudy, slightly warmer Seattle winter.
 
 {% include photo-story-3x1-25-50-25.html photo1="16489843218" photo2="16057483653" photo3="16470147487" %}
@@ -60,7 +58,7 @@ Despite the cold, it was truly a beautiful day.
 
 After strolling around for the day. We decided to wind down for the night with a visit to the John Hancock Signature Room Lounge. It was an awesome view. Unfortunately I didn’t have a tripod with me, so my hand-held skills were put to the test.
 
-<div class="img-section-spacer"></div>
+<div class="img-section-divider"></div>
 
 {% include photo-story-100-with-padding.html photo="16054289224" caption="Lake Michigan was 80% frozen at this time. (iPhone 6)" %}
 

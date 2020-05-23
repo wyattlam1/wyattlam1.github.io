@@ -1,12 +1,12 @@
 <div class="img-section">
-	<!-- width100 has special references in flickrService.js -->
-    <div id="{{ include.photo }}" class="img-container width100">
-        <a data-lightbox="site" data-title="{{ include.caption }}"></a>
+    <div class="img-table">
+        <!-- width100 has special references in flickrService.js -->
+        <div id="{{ include.photo }}" class="img-container width100">
+            <a data-lightbox="site" data-title="{{ include.caption }}"></a>
+        </div>
     </div>
 
     {% if include.caption and include.caption != "" %}
         <span class="img-caption">{{ include.caption }}</span>
-    {% else %}
-        <div class="img-section-spacer"></div>
     {% endif %}
 </div>

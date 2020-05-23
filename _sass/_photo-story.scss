@@ -29,6 +29,7 @@ $image-spacing-unit: 15px;
     align-items: stretch;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: $image-spacing-unit;
 
     @include media-query($on-phone) { 
         display: block;
@@ -90,7 +91,6 @@ $image-spacing-unit: 15px;
 
     @include media-query($on-phone) { 
         width: 100%; 
-        margin-bottom: $image-spacing-unit;
     } 
 }
 
@@ -113,12 +113,6 @@ $image-spacing-unit: 15px;
     }
 }
 
-.img-section-spacer { 
-    display: block; 
-    width: 100%; 
-    height: $image-spacing-unit; 
-}
-
 .img-section-divider { 
     width: 100px; 
     height: 1px; 
@@ -133,12 +127,8 @@ $image-spacing-unit: 15px;
 .img-caption { 
     display: block; 
     padding: 0; 
-    margin: 0px ($post-content-padding/2) 0px ($post-content-padding/2); 
+    margin: -$image-spacing-unit ($post-content-padding/2) 0px ($post-content-padding/2); 
     text-align: center; 
-
-    @include media-query($on-phone) { 
-        margin: 0;
-    }
 }
 
 .heightShort {

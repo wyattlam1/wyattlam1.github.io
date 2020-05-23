@@ -10,13 +10,7 @@ cover: https://farm1.staticflickr.com/729/20703213549_07b77e860a_c_d.jpg
 
 {% include photo-story-100-with-padding.html photo="20727494618" %}
 
-<div class="img-section-spacer"></div>
-<br>
-
 I took a weekend trip with the family to Lake Tahoe a couple of weekends ago.  It's been awhile since we have gone on an outdoorsy trip, so we were all pretty excited about it. It turned out to be an awesome weekend away and I came back with some pretty fantastic shots.  
-
-<div class="img-section-spacer"></div>
-<br>
 
 {% include photo-story-100-with-padding.html photo="20907913811" %}
 
@@ -46,7 +40,7 @@ We arrived at the parking lot of Eagle Lake shortly after and began our hike.
 ===
 {: style="text-align: center"}
 
-<div class="img-section-spacer"></div>
+<div class="img-section-divider"></div>
 
 {% include photo-story-2x1-50-50-vertical.html photo1="20897106421" photo2="20897113381" %}
 
@@ -101,14 +95,8 @@ We winded down the night with an early dinner back by the hotel.  Everyone was q
 
 {% include photo-story-100-with-padding.html photo="20755656989" %}
 
-<div class="img-section-spacer"></div>
-<br>
-
 ### Finally, the sun set and we were met with this amazing display of colors.
 {: style="text-align: center"}
-
-<div class="img-section-spacer"></div>
-<br>
 
 {% include photo-story-100-with-padding.html photo="20863673916" caption="Sunset at Sand Harbor" %}
 

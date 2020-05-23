@@ -20,8 +20,6 @@ cover-offset: 160px
     </div>
 </div>
 
-<div class="img-section-spacer"></div>
-
 <div class="img-section">
 
     <div class="img-container width33" style="position:relative; height: 150px; background-image: url(https://c2.staticflickr.com/2/1489/24921660135_7d27032427_d.jpg)">

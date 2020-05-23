@@ -1,6 +1,6 @@
 <div class="img-section">
     <div class="img-table">
-    
+
         <div id="{{ include.photo1 }}" class="img-container width50 heightTall">
             <a data-lightbox="site" data-title="{{ include.caption1 }}"></a>
         </div>
@@ -10,12 +10,9 @@
         <div id="{{ include.photo2 }}" class="img-container width50 heightTall">
             <a data-lightbox="site" data-title="{{ include.caption2 }}"></a>
         </div>
-
     </div>
 
     {% if include.caption %}
         <span class="img-caption">{{ include.caption }}</span>
-    {% else %}
-        <div class="img-section-spacer"></div>
     {% endif %}
 </div>
