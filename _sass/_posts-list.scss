@@ -82,6 +82,7 @@ $post-list-border-radius: 3px;
     max-width: 32%;
     flex: 32%;
     border-radius: $post-list-border-radius;
+    overflow: hidden;
 
     @include media-query($on-tablet) {
         border-radius: 0;    
