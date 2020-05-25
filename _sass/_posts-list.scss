@@ -76,20 +76,50 @@ $post-list-border-radius: 3px;
     display: flex;
     margin-top: 8px;
     justify-content: space-between;
-}
-
-.post-list-album-thumbnail { 
-    max-width: 32%;
-    flex: 32%;
-    border-radius: $post-list-border-radius;
-    overflow: hidden;
 
     @include media-query($on-tablet) {
-        border-radius: 0;    
+        flex-wrap: wrap;
     }
 
     @include media-query($on-phone) {
-        border-radius: 0;    
+        flex-wrap: wrap;
+    }
+}
+
+.post-list-album-thumbnail { 
+    border-radius: $post-list-border-radius;
+    overflow: hidden;
+}
+
+.main-thumbnail {
+    max-width: 32%;
+    flex: 32%;
+
+    @include media-query($on-tablet) {
+        max-width: 100%;
+        flex: 100%;
+        margin-bottom: 8px;
+    }
+
+    @include media-query($on-phone) {
+        max-width: 100%;
+        flex: 100%;
+        margin-bottom: 8px;
+    }
+}
+
+.sub-thumbnail {
+    max-width: 32%;
+    flex: 32%;
+
+    @include media-query($on-tablet) {
+        max-width: 49%;
+        flex: 49%;
+    }
+
+    @include media-query($on-phone) {
+        max-width: 49%;
+        flex: 49%;
     }
 }
 
