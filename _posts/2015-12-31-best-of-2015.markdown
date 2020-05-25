@@ -5,7 +5,7 @@ date:           2015-12-31
 type:           photo-album
 categories:     photo-album
 thumbs:
-  - https://live.staticflickr.com/7606/16744449915_3ee0f2d122_m.jpg 
+  - https://live.staticflickr.com/7606/16744449915_3ee0f2d122.jpg 
   - https://live.staticflickr.com/7661/16740521333_7132ee82a4_m.jpg 
   - https://live.staticflickr.com/5745/21887698611_92663a9e36_m.jpg
 ---
