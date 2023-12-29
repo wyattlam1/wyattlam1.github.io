@@ -4,9 +4,9 @@
     {% include head.html %}
 
     <body>
-        <div class="body_container">
-            {% include left_container.html %}
-            {% include right_container.html %}
+        {% include navigation.html %}
+        <div class="body-container">
+            {{ content }}
         </div>
     </body>
     

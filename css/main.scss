@@ -32,11 +32,9 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$post-font-family: 'Georgia', sans-serif;
-
 // Colors
 $text-color:       #111111;
-$background-color: rgb(250, 250, 250);
+$background-color: #ffffff;
 $brand-color:      #345f98;
 $link-color:       #5590dd;
 
@@ -47,14 +45,10 @@ $grey-color-dark:  darken($grey-color, 25%);
 $grey-color-dark-dark:  darken($grey-color, 35%);
 
 // Width of the content area
-$content-width:    85%;
+$content-width: 75%;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "base",
-    "layout",
-    "page-about",
-    "photo-story",
-    "posts",
-    "posts-list"
+    "layout"
 ;

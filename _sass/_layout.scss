@@ -1,65 +1,262 @@
 /*------------------------------
     MAIN
  -----------------------------*/
-html, body {
+html,
+body {
     height: 100%;
-    background-color: $background-color; 
+    background-color: $background-color;
+    scroll-behavior: smooth;
 }
 
-.body_container {
+.body {
     height: 100%;
-    max-width: 1400px;
 }
 
-$border-color: #e1e1e1;
-/*------------------------------
-    LEFT CONTAINER
- -----------------------------*/
-$left-container-width: 230px;
-.left-container         { top: 0; left: 0; position: fixed; width: $left-container-width; height: 100%; 
-                          padding: ($spacing) ($spacing) 0 ($spacing); text-align: right; 
-                          background-color: #ffffff; border-right: 1px solid $border-color; }
-.left-container-scroll-border { top:0; right:-1px; position:absolute; width:1px; height: 0%; border-right: 1px solid $grey-color; }
-.navigation             { margin-top: $spacing/2; }
-.navigation ul          { list-style: none; padding: 0; margin: 0; }
-.navigation li          { margin-bottom: 5px; }
-.network-container      { margin-top: $spacing; }
-.network                { padding: 0; margin: 0 0 0 10px; }
-.network svg            { display: inline-block; vertical-align: middle; text-align: right; }
-.network svg path       { fill: $grey-color-light; }
-.network svg:hover path { fill: $grey-color-dark; }
-
-@include media-query($on-phone) {
-    .left-container    { position: static; width: 100%; height: auto; margin: 0; padding: $spacing 0 0 0;
-                         text-align: center; border: 0; border-bottom: 1px solid $grey-color-light-light; }
-    .navigation li     { display: inline-block; margin: 0; padding: 0 ($spacing/2) 0 ($spacing/2); }
-    .network-container { margin-top: $spacing / 2; }
-    .network           { margin: 0 ($spacing/2) 0 ($spacing/2); }
-    .rss-subscribe     { visibility: hidden; height: 0; }
-}
-
-/*------------------------------
-    RIGHT CONTAINER
- -----------------------------*/
-.right-container { 
-    height: 100%;
-    display: flex;
-    flex-flow: column;
-    margin-left: $left-container-width + $spacing * 2; 
+.hello {
+    font-size: 48pt;
 
     @include media-query($on-phone) {
-        margin: 0;
+        font-size: 20pt;
     }
 }
 
 /*------------------------------
-    OTHER
+    SECTION
  -----------------------------*/
-.center        { display: block; margin:0 auto; }
-.pagination    { max-width: 80%; text-align: right; margin: $spacing 0 0 $spacing*2; }
-#disqus_thread { max-width: 800px; margin: $spacing*2 auto; padding: ($spacing*2) ($spacing) 0 ($spacing); 
-                 border-top: 1px solid #DDDDDD; }
+.navigation-container {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
 
-@include media-query($on-phone) {
-    .pagination { max-width: 100%; text-align: center; margin: $spacing 0 0 0; }
+.navigation-content {
+    width: $content-width;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    @include media-query($on-phone) {
+        width: 90%;
+    }
+}
+
+.navigation-container a {
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.navigation-container .logo {
+    padding-bottom: 2px;
+}
+
+/*------------------------------
+    BODY
+ -----------------------------*/
+.body-container {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+
+    @include media-query($on-phone) {
+        scroll-snap-type: none;
+    }
+}
+
+.section-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    scroll-snap-align: start;
+    position: relative;
+
+    @include media-query($on-phone) {
+        height: auto;
+        margin-top: 150px;
+    }
+}
+
+.section-content {
+    width: $content-width;
+    margin: 0 auto;
+    padding: 0 auto;
+    ;
+}
+
+.experience-content {
+    width: 85%;
+    margin: 0 auto;
+
+    @include media-query($on-phone) {
+        width: 100%;
+    }
+}
+
+.network svg {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.network svg path {
+    fill: $grey-color-light;
+}
+
+.network svg:hover path {
+    fill: $grey-color-dark;
+}
+
+
+/*------------------------------
+    ABOUT 
+ -----------------------------*/
+
+.job-container {
+    margin: 10px 0 10px 0;
+    padding: 20px 0 20px 0;
+    border-top: 1px solid #dddddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &:first-of-type {
+        border: 0;
+    }
+
+    h3 {
+        margin-bottom: 4px;
+        font-weight: 600;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    @include media-query($on-phone) {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 0 20px 0;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-right: 50px;
+
+        @include media-query($on-phone) {
+            width: 30px;
+            height: 30px;
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    }
+
+    .description-container {
+        margin-right: 30px;
+
+        @include media-query($on-phone) {
+            margin: 0 0 10px 0;
+        }
+    }
+
+    .date-container {
+        flex-grow: 2;
+        flex-basis: 240px;
+        text-align: right;
+
+        @include media-query($on-phone) {
+            flex-grow: 1;
+            flex-basis: 0px;
+        }
+
+        h3 {
+            color: #666666;
+            font-weight: 200;
+        }
+    }
+}
+
+/*------------------------------
+    ASSETS 
+ -----------------------------*/
+
+.hand-wave {
+    width: 65px;
+    height: auto;
+}
+
+.arrow-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    @include media-query($on-phone) {
+        display: none;
+    }
+}
+
+.arrow {
+    border: solid #cccccc;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 5px;
+    margin: 50px auto;
+}
+
+.bounce {
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+    70% {
+        transform: translateY(0%);
+    }
+
+    80% {
+        transform: translateY(-15%);
+    }
+
+    90% {
+        transform: translateY(0%);
+    }
+
+    95% {
+        transform: translateY(-7%);
+    }
+
+    97% {
+        transform: translateY(0%);
+    }
+
+    99% {
+        transform: translateY(-3%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }

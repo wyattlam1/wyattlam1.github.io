@@ -1,37 +1,122 @@
 ---
 layout: default
 ---
+<div class="section-container">
+  <div class="section-content">
+    <h1 class="hello">
+      <img class="hand-wave" src="{{ site.baseurl }}/resources/hand_wave.png" /> Hi. I'm Wyatt.
+    </h1>
+    <h2>
+      I'm an engineering leader passionate about product, design, and engineering. I've always enjoyed the craft in
+      building things and have excelled at the intersection of those three domains.
+      I spent the early years of my career primarily dabbling in desktop and mobile development, with some backend work
+      sprinkled in.
+      Throughout all that, I found myself increasingly gravitating from building code to building teams and have since
+      transitioned over to engineering management.
+      I’ve since built and scaled multiple teams, ranging from mobile development, backend platforms, to ML ranking.
+    </h2>
+    <br>
+    <h2>
+      In my spare time, I enjoy taking taking <a href="{{site.photos_url | prepend:site.baseurl}}">photos</a>
+      with my iPhone, Nikon Z8, and Fuji X100F cameras. On a normal day, you'll also find me clocking in miles on Strava
+      or carving down the
+      slopes in the winter.
+    </h2>
+    <br>
+    <h2>
+      I love
+      <a href="https://www.instagram.com/p/B3KK4R_p9TS/" target="_blank">coffee</a>, probably a little too much. Nothing
+      beats a good cup any day.
+    </h2>
 
-<ul class="post-list">
-  {% for post in paginator.posts %}
-      {% if post.type == "photo-story" %}
-          {% include post-list-photo-story-item.html %}
-      {% elsif post.type == "photo-album" %}
-          {% include post-list-photo-album-item.html %}
-      {% else %}
-          {% include post-list-blog-item.html %}
-      {% endif %}
-  {% endfor %}
-</ul>
-
-<br>
-
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-  <span class="previous">Previous</span>
-  {% endif %}
-
-  <span class="page_number "> {{ paginator.page }} of {{ paginator.total_pages }}</span>
-
-  {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-  <span class="next ">Next</span>
-  {% endif %}
+    <div class="arrow-container bounce">
+      <a href="#experience">
+        <i class=" arrow down"></i>
+      </a>
+    </div>
+  </div>
 </div>
 
-<br>
-<br>
+<div id="experience" class="section-container">
+  <div class="section-content">
+    <div class="experience-content">
+      <h1>Experience</h1>
+      <div class="job-container">
+        <img class="logo" src="{{ site.baseurl }}/resources/logo-figma.png" />
+        <div class="description-container">
+          <h3>Figma</h3>
+          <p>
+            Currently building <a href="https://www.figma.com/design-systems/" target="_blank">design systems</a> and <a
+              href="https://www.figma.com/prototyping/" target="_blank">prototyping</a> tools at Figma.
+          </p>
+        </div>
+        <div class="date-container">
+          <h3>2022 – Now</h3>
+        </div>
+      </div>
+      <div class="job-container">
+        <img class="logo" src="{{ site.baseurl }}/resources/logo-instagram.png" />
+        <div class="description-container">
+          <h3>Instagram</h3>
+          <p>
+            Supported <a href="https://business.instagram.com/" target="_blank">Instagram Business</a> and Instagram
+            Well-being & Integrity teams. Led vision and strategy around:
+          <ul>
+            <li>Business products (data analytics, creator profiles, creative tools)</li>
+            <li>Integrity experiences (user reporting, content appeals, muting, blocking)</li>
+            <li>Integrity platforms (content demotions, recommendations, ranking)</li>
+          </ul>
+          </p>
+        </div>
+        <div class="date-container">
+          <h3>2016 – 2022</h3>
+        </div>
+      </div>
+
+      <div class="job-container">
+        <img class="logo" src="{{ site.baseurl }}/resources/logo-twitter.png" />
+        <div class="description-container">
+          <h3>Twitter</h3>
+          <p>
+            Worked on Twitter iOS, building products for the Twitter profile and verified accounts (<a
+              href="http://thenextweb.com/twitter/2015/08/27/twitter-now-lets-you-pin-tweets-to-the-top-of-your-profile-on-ios-and-android/"
+              target="_blank">Pinned Tweets</a>, Notifications, Inbox). I also led a small team to build and ship the
+            <a href="https://techcrunch.com/2015/02/11/twitter-acquires-niche-a-startup-that-helps-advertisers-work-with-social-media-celebrities/"
+              target="_blank">Niche iOS Creator App</a>.
+          </p>
+        </div>
+        <div class="date-container">
+          <h3>2014 – 2016</h3>
+        </div>
+      </div>
+
+      <div class="job-container">
+        <img class="logo" src="{{ site.baseurl }}/resources/logo-amazon.png" />
+        <div class="description-container">
+          <h3>Amazon</h3>
+          <p>
+            Worked on
+            <a href="http://www.amazon.com/clouddrive" target="_blank">Amazon Cloud Drive</a>
+            and built Mac OSX and Windows desktop apps for file syncing and photo management.
+          </p>
+        </div>
+        <div class="date-container">
+          <h3>2012 – 2014</h3>
+        </div>
+      </div>
+
+      <div class="job-container">
+        <img class="logo" src="{{ site.baseurl }}/resources/logo-apple.png" />
+        <div class="description-container">
+          <h3>Apple</h3>
+          <p>
+            Worked on Apple Consumer Engineering tools, building internal tooling and infrastructure for iPhoto.
+          </p>
+        </div>
+        <div class="date-container">
+          <h3>2011 – 2012</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
