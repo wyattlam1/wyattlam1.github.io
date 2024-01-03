@@ -50,5 +50,6 @@ $content-width: 75%;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "base",
-    "layout"
+    "layout",
+    "baguetteBox.min.css"
 ;

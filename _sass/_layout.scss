@@ -14,7 +14,7 @@ body {
 
 .hello {
     font-size: 48pt;
-    
+
     @include media-query($on-phone) {
         font-size: 20pt;
     }
@@ -23,6 +23,8 @@ body {
 /*------------------------------
     SECTION
  -----------------------------*/
+$navigation-container-height: 100px;
+
 .navigation-container {
     position: fixed;
     z-index: 1;
@@ -33,6 +35,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    height: $navigation-container-height;
     display: flex;
     justify-content: center;
     background-color: #ffffff;
@@ -68,9 +71,16 @@ body {
     BODY
  -----------------------------*/
 .body-container {
-    height: 100vh;
     margin: 0;
     padding: 0;
+}
+
+.fullscreen {
+    height: 100vh;
+}
+
+.fullscreen-snap {
+    height: 100vh;
     overflow: auto;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
@@ -81,9 +91,8 @@ body {
 }
 
 .section-container {
-    height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: left;
     flex-direction: column;
     scroll-snap-align: start;
@@ -98,8 +107,11 @@ body {
 .section-content {
     width: $content-width;
     margin: 0 auto;
-    padding: 0 auto;
-    ;
+    padding: $navigation-container-height 0 0 0;
+}
+
+.full-width {
+    width: 100%;
 }
 
 .experience-content {
@@ -265,4 +277,36 @@ body {
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+
+/*------------------------------
+    PHOTO GALLERY 
+    https://blog.logrocket.com/responsive-image-gallery-css-flexbox/
+ -----------------------------*/
+
+.photo-gallery-container {
+    width: auto;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.photo-gallery-container>a {
+    height: 25vh;
+    flex: 1 1 auto;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#properties_applied_to_flex_items */
+    background-color: #cccccc;
+}
+
+.photo-gallery-container a img {
+    object-fit: cover;
+    min-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.photo-gallery-container::after {
+    content: "";
+    flex-grow: 999;
 }
