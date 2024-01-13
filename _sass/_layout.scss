@@ -51,6 +51,8 @@ $navigation-container-height: 100px;
 
     @include media-query($on-phone) {
         width: 90%;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
 }
 
@@ -100,7 +102,6 @@ $navigation-container-height: 100px;
 
     @include media-query($on-phone) {
         height: auto;
-        margin-top: 150px;
     }
 }
 
